@@ -1,0 +1,110 @@
+{
+  "packages": [
+    {
+      "name": "KETCube",
+      "maintainer": "The SmartCAMPUS Team",
+      "websiteURL": "https://edu.ketcube.cz",
+      "email": "info@smartcampus.cz",
+      "help": {
+        "online": "https://edu.ketcube.cz"
+      },
+      "platforms": [
+        {
+          "name": "KETCube Core",
+          "architecture": "stm32",
+          "version": "0.2.0",
+          "category": "Contributed",
+          "url": "https://edu.ketcube.cz/ketcube-arduino-0.2.0.tar.gz",
+          "archiveFileName": "ketcube-arduino-0.2.0.tar.gz",
+          "checksum": "SHA-256:c61f688da13ddfb0858081a3fd2cbd7eb953a7d6ce3bca8b9860169a19ee77c8",
+          "size": "15832",
+          "boards": [{ "name": "mainBoard v0.2.0" }],
+          "toolsDependencies": [
+            {
+              "packager": "KETCube",
+              "name": "arm-none-eabi-gcc",
+              "version": "8.2.1-1.7"
+            },
+            {
+              "packager": "KETCube",
+              "name": "STM32Tools",
+              "version": "1.4.0"
+            }
+          ]
+        }
+      ],
+      "tools": [
+      {
+          "name": "arm-none-eabi-gcc",
+          "version": "8.2.1-1.7",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/stm32duino/arm-none-eabi-gcc/releases/download/8.2.1-1.7/gcc-arm-none-eabi-8.2.1-1.7-windows.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-8.2.1-1.7-windows.tar.bz2",
+              "checksum": "SHA-256:fe7305b48b92e20d71740da8723e59e89abc2e8e159350e9b302adcedbc2b25c",
+              "size": "117852054"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/stm32duino/arm-none-eabi-gcc/releases/download/8.2.1-1.7/gcc-arm-none-eabi-8.2.1-1.7-mac.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-8.2.1-1.7-mac.tar.bz2",
+              "checksum": "SHA-256:a6c0193a02d7cd8e411d438c6461c516d7782776f0c647a0a2168f60068b21b2",
+              "size": "103985447"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/arm-none-eabi-gcc/releases/download/8.2.1-1.7/gcc-arm-none-eabi-8.2.1-1.7-linux64.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-8.2.1-1.7-linux64.tar.bz2",
+              "checksum": "SHA-256:509f0358ae2f83612f1120fb63eda5eca3892238f793ae909a5bb1d85db0c1f1",
+              "size": "108286418"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/arm-none-eabi-gcc/releases/download/8.2.1-1.7/gcc-arm-none-eabi-8.2.1-1.7-linux32.tar.bz2",
+              "archiveFileName": "gcc-arm-none-eabi-8.2.1-1.7-linux32.tar.bz2",
+              "checksum": "SHA-256:008fdca0f29da0f71519bb78b088e199f30bdf9090b60a18e5372a6942ae5c7a",
+              "size": "109871000"
+            }
+          ]
+        },
+        {
+          "name": "STM32Tools",
+          "version": "1.4.0",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/stm32duino/Arduino_Tools/releases/download/1.4.0/STM32Tools-1.4.0-windows.tar.bz2",
+              "archiveFileName": "STM32Tools-1.4.0-windows.tar.bz2",
+              "checksum": "SHA-256:9d0e5401c28f83de6b9e5c1d3dd08c71f89ed574113af8a0b78c3e677653be07",
+              "size": "2818862"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "url": "https://github.com/stm32duino/Arduino_Tools/releases/download/1.4.0/STM32Tools-1.4.0-mac.tar.bz2",
+              "archiveFileName": "STM32Tools-1.4.0-mac.tar.bz2",
+              "checksum": "SHA-256:861ab52fbfd6aa02e9efbd4f568bc536c6669975675660417b4c2e719fe15304",
+              "size": "757807"
+            },
+            {
+              "host": "x86_64-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/Arduino_Tools/releases/download/1.4.0/STM32Tools-1.4.0-linux.tar.bz2",
+              "archiveFileName": "STM32Tools-1.4.0-linux.tar.bz2",
+              "checksum": "SHA-256:03ce112090a39ea5176b4401ec06208b8d8cccb4eb705c8f03c5aa74f3c99918",
+              "size": "755585"
+            },
+            {
+              "host": "i686-pc-linux-gnu",
+              "url": "https://github.com/stm32duino/Arduino_Tools/releases/download/1.4.0/STM32Tools-1.4.0-linux.tar.bz2",
+              "archiveFileName": "STM32Tools-1.4.0-linux.tar.bz2",
+              "checksum": "SHA-256:03ce112090a39ea5176b4401ec06208b8d8cccb4eb705c8f03c5aa74f3c99918",
+              "size": "755585"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

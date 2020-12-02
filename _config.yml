@@ -1,1 +1,26 @@
 theme: jekyll-theme-minimal
+title: KETCube EDU - Edukační balíček pro Arduino
+description: Edukační balíček pro Arduino na platformě KETCube
+logo: logo.png
+logo_oshw: oshw-logo.png
+show_downloads: true
+github:
+  maintainer: SmartCampus ZČU Team
+  maintainer2: ZČU
+  maintainer_url: https://github.com/SmartCAMPUSZCU
+  logo_mt: sc-logo.png
+  logo_mt2: zcu-logo.png
+  is_project_page: false
+  fw_name: KETCube-fw 0.1.1
+  fw_zip_url: https://github.com/SmartCAMPUSZCU/KETCube-fw/archive/v0.1.1.zip
+  fw_tar_url: https://github.com/SmartCAMPUSZCU/KETCube-fw/archive/v0.1.1.tar.gz
+  fw_repository_url: https://github.com/SmartCAMPUSZCU/KETCube-fw
+  docs_name: KETCube-docs 0.1.1
+  docs_zip_url: https://github.com/SmartCAMPUSZCU/KETCube-docs/archive/v0.1.1.zip
+  docs_tar_url: https://github.com/SmartCAMPUSZCU/KETCube-docs/archive/v0.1.1.tar.gz
+  docs_repository_url: https://github.com/SmartCAMPUSZCU/KETCube-docs
+  mainBoard_name: KETCube-mainBoard 0.1.1
+  mainBoard_zip_url: https://github.com/SmartCAMPUSZCU/KETCube-mainBoard/archive/v0.1.0.zip
+  mainBoard_tar_url: https://github.com/SmartCAMPUSZCU/KETCube-mainBoard/archive/v0.1.0.tar.gz
+  mainBoard_repository_url: https://github.com/SmartCAMPUSZCU/KETCube-mainBoard
+  
