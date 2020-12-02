@@ -11,16 +11,13 @@ github:
   logo_mt: sc-logo.png
   logo_mt2: zcu-logo.png
   is_project_page: false
-  fw_name: KETCube-fw 0.1.1
-  fw_zip_url: https://github.com/SmartCAMPUSZCU/KETCube-fw/archive/v0.1.1.zip
-  fw_tar_url: https://github.com/SmartCAMPUSZCU/KETCube-fw/archive/v0.1.1.tar.gz
-  fw_repository_url: https://github.com/SmartCAMPUSZCU/KETCube-fw
-  docs_name: KETCube-docs 0.1.1
-  docs_zip_url: https://github.com/SmartCAMPUSZCU/KETCube-docs/archive/v0.1.1.zip
-  docs_tar_url: https://github.com/SmartCAMPUSZCU/KETCube-docs/archive/v0.1.1.tar.gz
-  docs_repository_url: https://github.com/SmartCAMPUSZCU/KETCube-docs
-  mainBoard_name: KETCube-mainBoard 0.1.1
-  mainBoard_zip_url: https://github.com/SmartCAMPUSZCU/KETCube-mainBoard/archive/v0.1.0.zip
-  mainBoard_tar_url: https://github.com/SmartCAMPUSZCU/KETCube-mainBoard/archive/v0.1.0.tar.gz
-  mainBoard_repository_url: https://github.com/SmartCAMPUSZCU/KETCube-mainBoard
+  arduino_name: Balíček pro Arduino IDE
+  arduino_json_url: https://edu.ketcube.cz/files/package_ketcube_index.json
+  arduino_apidoc_url: https://edu.ketcube.cz/files/apidoc/annotated.html
+  arduino_repository_url: https://github.com/SmartCAMPUSZCU/KETCube-arduino
+  docs_name: Dokumentace
+  docs_datasheet: https://github.com/SmartCAMPUSZCU/KETCube-docs/blob/refactoring_0.2/KETCubeDatasheet.pdf
+  docs_appnotes: https://github.com/SmartCAMPUSZCU/KETCube-docs/tree/refactoring_0.2/appNotes
+  docs_repository_url: https://github.com/SmartCAMPUSZCU/KETCube-docs/tree/refactoring_0.2
+  
   

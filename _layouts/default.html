@@ -17,7 +17,7 @@
         <!-- <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1> -->
         
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <a href="/"><img src="{{site.logo | relative_url}}" alt="Logo" /></a>
         {% endif %}
 
         <h3>{{ site.title | default: site.github.repository_name }}</h3>
@@ -34,25 +34,18 @@
 
         {% if site.show_downloads %}
         
-        <p>{{ site.github.fw_name }}:</p>
+        <p>{{ site.github.arduino_name }}:</p>
         <ul class="downloads">
-          <li><a href="{{ site.github.fw_zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.fw_tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.fw_repository_url }}">View On <strong>GitHub</strong></a></li>
+          <li><a href="{{ site.github.arduino_json_url }}">Stáhnout <strong>JSON</strong></a></li>
+          <li><a href="{{ site.github.arduino_apidoc_url }}">Zobrazit <strong>APIdoc</strong></a></li>
+          <li><a href="{{ site.github.arduino_repository_url }}">Zdroj na <strong>GitHubu</strong></a></li>
         </ul>
         
         <p>{{ site.github.docs_name }}:</p>
         <ul class="downloads">
-          <li><a href="{{ site.github.docs_zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.docs_tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.docs_repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        
-        <p>{{ site.github.mainBoard_name }}:</p>
-        <ul class="downloads">
-          <li><a href="{{ site.github.mainBoard_zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.mainBoard_tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.mainBoard_repository_url }}">View On <strong>GitHub</strong></a></li>
+          <li><a href="{{ site.github.docs_datasheet }}">Stáhnout <strong>Datasheet</strong></a></li>
+          <li><a href="{{ site.github.docs_appnotes }}">Stáhnout <strong>AppNote</strong></a></li>
+          <li><a href="{{ site.github.docs_repository_url }}">Zdroj na <strong>GitHubu</strong></a></li>
         </ul>
         {% endif %}
         
