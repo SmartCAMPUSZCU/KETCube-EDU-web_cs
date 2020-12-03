@@ -5,7 +5,7 @@ Edukační balíček pro [Arduino](www.arduino.cc).
 ![KETCube platform OLD PHOTO](ketCube_all_photo_webQ.jpg)
 
 ## Příklady
-  * [Příklad #1](example_1.md)
+  * [Blikání LED na desce KETCube](pages/example_onBoardLED.md)
 
 ## Licence
 

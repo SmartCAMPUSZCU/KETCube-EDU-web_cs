@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.20"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Arduino API: API Constants</title>
+<title>EDU Arduino API: API Constants</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Arduino API
+   <div id="projectname">EDU Arduino API
    </div>
   </td>
  </tr>
@@ -110,6 +110,18 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:gae2a23b8042dd3d8a6092d6920cf4d973"><td class="mdescLeft">&#160;</td><td class="mdescRight">digital PIN value  <a href="group__KETCube__Arduino__API__Defines.html#gae2a23b8042dd3d8a6092d6920cf4d973">More...</a><br /></td></tr>
 <tr class="separator:gae2a23b8042dd3d8a6092d6920cf4d973"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2db6d4b4766cd57a121dd88db43d866e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__KETCube__Arduino__API__Defines.html#ga2db6d4b4766cd57a121dd88db43d866e">ketCube_Arduino_ledFunction_t</a> { <br />
+&#160;&#160;<a class="el" href="group__KETCube__Arduino__API__Defines.html#gga2db6d4b4766cd57a121dd88db43d866eafc0ca8cc6cbe215fd3f1ae6d40255b40">LED_OFF</a> = 0, 
+<br />
+&#160;&#160;<a class="el" href="group__KETCube__Arduino__API__Defines.html#gga2db6d4b4766cd57a121dd88db43d866eadd01b80eb93658fb4cf7eb9aceb89a1d">LED_ON</a>, 
+<br />
+&#160;&#160;<a class="el" href="group__KETCube__Arduino__API__Defines.html#gga2db6d4b4766cd57a121dd88db43d866ea5a9c97fc3cc4f9795a97a2b72b07d62e">LED_BLINK_SINGLE</a>, 
+<br />
+&#160;&#160;<a class="el" href="group__KETCube__Arduino__API__Defines.html#gga2db6d4b4766cd57a121dd88db43d866eab20f45aad5d9d4e7e9f98c6e13c06eaa">LED_BLINK_CONT</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:ga2db6d4b4766cd57a121dd88db43d866e"><td class="mdescLeft">&#160;</td><td class="mdescRight">LED functions.  <a href="group__KETCube__Arduino__API__Defines.html#ga2db6d4b4766cd57a121dd88db43d866e">More...</a><br /></td></tr>
+<tr class="separator:ga2db6d4b4766cd57a121dd88db43d866e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>KETCube Arduino API Constants. </p>
@@ -136,6 +148,33 @@ Enumerations</h2></td></tr>
 
 </div>
 </div>
+<a id="ga2db6d4b4766cd57a121dd88db43d866e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2db6d4b4766cd57a121dd88db43d866e">&#9670;&nbsp;</a></span>ketCube_Arduino_ledFunction_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="group__KETCube__Arduino__API__Defines.html#ga2db6d4b4766cd57a121dd88db43d866e">ketCube_Arduino_ledFunction_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>LED functions. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga2db6d4b4766cd57a121dd88db43d866eafc0ca8cc6cbe215fd3f1ae6d40255b40"></a>LED_OFF&#160;</td><td class="fielddoc"><p>LED is permanently OFF <br  />
+ </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga2db6d4b4766cd57a121dd88db43d866eadd01b80eb93658fb4cf7eb9aceb89a1d"></a>LED_ON&#160;</td><td class="fielddoc"><p>LED is permanently ON. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga2db6d4b4766cd57a121dd88db43d866ea5a9c97fc3cc4f9795a97a2b72b07d62e"></a>LED_BLINK_SINGLE&#160;</td><td class="fielddoc"><p>LED BLINKs - single flash. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga2db6d4b4766cd57a121dd88db43d866eab20f45aad5d9d4e7e9f98c6e13c06eaa"></a>LED_BLINK_CONT&#160;</td><td class="fielddoc"><p>LED BLINKs - continuous flashing. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <a id="ga39a5f3af32d5a61076760aa56f4e6a78"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga39a5f3af32d5a61076760aa56f4e6a78">&#9670;&nbsp;</a></span>ketCube_Arduino_pin_t</h2>
 
@@ -150,24 +189,46 @@ Enumerations</h2></td></tr>
 
 <p>Arduino PIN definition. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a17a52bdf6be8a8aa8f28cc5ed2ad65fc"></a>IO1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78abeda2b531fd3396af9bd354b5ef020a8"></a>IO2&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a407bc4408d49d67d52a2d128126cb600"></a>IO3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78aceb4e07988ce36a40df65fd124e9eba7"></a>IO4&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a46aead023d905cfb01c37a23e34a8005"></a>AN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a7dcb79ea9485b2b09a8453d9f9f575c2"></a>RST&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a78bcece98b40c207eb8988c589694e33"></a>CS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a74cc76fdab4918a879962827b277498b"></a>SCK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a96092c7d21993ef8d5641e24f74506ec"></a>MISO&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a436efe585b1aa920d6e821f8095f0ad7"></a>MOSI&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78aef99a276e1f3b62b5df98acc27b38028"></a>PWM&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78afd5a5f51ce25953f3db2c7e93eb7864a"></a>INT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a4aca20d6e60fffb66e9668b3a6592531"></a>RX&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a951f819598b53b2729ee0e4c05e6888e"></a>TX&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a15126c1df0b2e468dcd9aeb225395b26"></a>SCL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78ae21c602fb61dc58e4fa361382cb31403"></a>SDA&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78adac6477842247cab1a8c02c65f431b44"></a>LED1&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a8379bbaa96d151e6adac488b2a147b7a"></a>LED2&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a17a52bdf6be8a8aa8f28cc5ed2ad65fc"></a>IO1&#160;</td><td class="fielddoc"><p>KETCube PIN IO1. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78abeda2b531fd3396af9bd354b5ef020a8"></a>IO2&#160;</td><td class="fielddoc"><p>KETCube PIN IO2. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a407bc4408d49d67d52a2d128126cb600"></a>IO3&#160;</td><td class="fielddoc"><p>KETCube PIN IO3. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78aceb4e07988ce36a40df65fd124e9eba7"></a>IO4&#160;</td><td class="fielddoc"><p>KETCube PIN IO4. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a46aead023d905cfb01c37a23e34a8005"></a>AN&#160;</td><td class="fielddoc"><p>KETCube PIN AN <br  />
+ </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a7dcb79ea9485b2b09a8453d9f9f575c2"></a>RST&#160;</td><td class="fielddoc"><p>KETCube PIN RST. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a78bcece98b40c207eb8988c589694e33"></a>CS&#160;</td><td class="fielddoc"><p>KETCube PIN CS <br  />
+ </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a74cc76fdab4918a879962827b277498b"></a>SCK&#160;</td><td class="fielddoc"><p>KETCube PIN SCK. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a96092c7d21993ef8d5641e24f74506ec"></a>MISO&#160;</td><td class="fielddoc"><p>KETCube PIN MISO. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a436efe585b1aa920d6e821f8095f0ad7"></a>MOSI&#160;</td><td class="fielddoc"><p>KETCube PIN MOSI. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78aef99a276e1f3b62b5df98acc27b38028"></a>PWM&#160;</td><td class="fielddoc"><p>KETCube PIN PWM. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78afd5a5f51ce25953f3db2c7e93eb7864a"></a>INT&#160;</td><td class="fielddoc"><p>KETCube PIN INT. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a4aca20d6e60fffb66e9668b3a6592531"></a>RX&#160;</td><td class="fielddoc"><p>KETCube PIN RX <br  />
+ </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a951f819598b53b2729ee0e4c05e6888e"></a>TX&#160;</td><td class="fielddoc"><p>KETCube PIN TX <br  />
+ </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a15126c1df0b2e468dcd9aeb225395b26"></a>SCL&#160;</td><td class="fielddoc"><p>KETCube PIN SCL. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78ae21c602fb61dc58e4fa361382cb31403"></a>SDA&#160;</td><td class="fielddoc"><p>KETCube PIN SDA. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78adac6477842247cab1a8c02c65f431b44"></a>LED1&#160;</td><td class="fielddoc"><p>KETCube PIN LED1. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a8379bbaa96d151e6adac488b2a147b7a"></a>LED2&#160;</td><td class="fielddoc"><p>KETCube PIN LED2. </p>
+</td></tr>
 </table>
 
 </div>

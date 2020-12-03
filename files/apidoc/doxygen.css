@@ -1121,6 +1121,7 @@ div.header
 div.headertitle
 {
 	padding: 5px 5px 5px 10px;
+    display: none;
 }
 
 .PageDocRTL-title div.headertitle {

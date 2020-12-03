@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.20"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Arduino API: ketCube_Arduino_API_t::Terminal Struct Reference</title>
+<title>EDU Arduino API: ketCube_Arduino_API_t::Terminal Struct Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -19,7 +19,7 @@
  <tr style="height: 56px;">
   <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">Arduino API
+   <div id="projectname">EDU Arduino API
    </div>
   </td>
  </tr>
@@ -47,12 +47,16 @@
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Data Fields</h2></td></tr>
 <tr class="memitem:af858c626ded28fc6768541bcfb9ec783"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__KETCube__Arduino__API.html#ga72df149e12796b5b76e5ec95d2caa2c1">Terminal_print_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structketCube__Arduino__API__t_1_1Terminal.html#af858c626ded28fc6768541bcfb9ec783">print</a></td></tr>
+<tr class="memdesc:af858c626ded28fc6768541bcfb9ec783"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends formatted output to KETCube terminal.  <a href="structketCube__Arduino__API__t_1_1Terminal.html#af858c626ded28fc6768541bcfb9ec783">More...</a><br /></td></tr>
 <tr class="separator:af858c626ded28fc6768541bcfb9ec783"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd21a38397fa94f88be153d7e03cb24e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__KETCube__Arduino__API.html#gacf4acdbdb74c2e4f4110be98585b0b7d">Terminal_printError_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structketCube__Arduino__API__t_1_1Terminal.html#afd21a38397fa94f88be153d7e03cb24e">printError</a></td></tr>
+<tr class="memdesc:afd21a38397fa94f88be153d7e03cb24e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends formatted output to KETCube terminal.  <a href="structketCube__Arduino__API__t_1_1Terminal.html#afd21a38397fa94f88be153d7e03cb24e">More...</a><br /></td></tr>
 <tr class="separator:afd21a38397fa94f88be153d7e03cb24e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afef54ce286fb2d68f31d1b1eeca246c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__KETCube__Arduino__API.html#ga4d3c3d7109998771ac687ca18c4a9aac">Terminal_printInfo_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structketCube__Arduino__API__t_1_1Terminal.html#afef54ce286fb2d68f31d1b1eeca246c1">printInfo</a></td></tr>
+<tr class="memdesc:afef54ce286fb2d68f31d1b1eeca246c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends formatted output to KETCube terminal.  <a href="structketCube__Arduino__API__t_1_1Terminal.html#afef54ce286fb2d68f31d1b1eeca246c1">More...</a><br /></td></tr>
 <tr class="separator:afef54ce286fb2d68f31d1b1eeca246c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3429b150f4d09dc91adbedc5337cc1ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__KETCube__Arduino__API.html#gaf93b3c40c0e5b5e50283c864cc0ae15b">Terminal_printDebug_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structketCube__Arduino__API__t_1_1Terminal.html#a3429b150f4d09dc91adbedc5337cc1ff">printDebug</a></td></tr>
+<tr class="memdesc:a3429b150f4d09dc91adbedc5337cc1ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends formatted output to KETCube terminal.  <a href="structketCube__Arduino__API__t_1_1Terminal.html#a3429b150f4d09dc91adbedc5337cc1ff">More...</a><br /></td></tr>
 <tr class="separator:a3429b150f4d09dc91adbedc5337cc1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -70,6 +74,22 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Sends formatted output to KETCube terminal. </p>
+<p>Behaves similarly to the C printf function the String is prefixed by the module prefix string ("Arduino :: ") and terminated by the new line</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">format</td><td>string that contains the text to be written to stdout. It can optionally contain embedded format tags that are replaced by the values specified in subsequent additional arguments &ndash; </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://sourceware.org/newlib/libc.html#sprintf">https://sourceware.org/newlib/libc.html#sprintf</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td>additional arguments depending on the format string </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a3429b150f4d09dc91adbedc5337cc1ff"></a>
@@ -83,6 +103,23 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sends formatted output to KETCube terminal. </p>
+<p>Behaves similarly to the C printf function the String is prefixed by the module prefix string ("Arduino :: ") and terminated by the new line</p>
+<dl class="section note"><dt>Note</dt><dd>the string is produced only if Arduino module severity is set to 3 (DEBUG)</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">format</td><td>string that contains the text to be written to stdout. It can optionally contain embedded format tags that are replaced by the values specified in subsequent additional arguments &ndash; </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://sourceware.org/newlib/libc.html#sprintf">https://sourceware.org/newlib/libc.html#sprintf</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td>additional arguments depending on the format string </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -98,6 +135,23 @@ Data Fields</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Sends formatted output to KETCube terminal. </p>
+<p>Behaves similarly to the C printf function the String is prefixed by the module prefix string ("Arduino :: ") and terminated by the new line</p>
+<dl class="section note"><dt>Note</dt><dd>the string is produced only if Arduino module severity is set to 1 (ERROR)</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">format</td><td>string that contains the text to be written to stdout. It can optionally contain embedded format tags that are replaced by the values specified in subsequent additional arguments &ndash; </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://sourceware.org/newlib/libc.html#sprintf">https://sourceware.org/newlib/libc.html#sprintf</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td>additional arguments depending on the format string </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="afef54ce286fb2d68f31d1b1eeca246c1"></a>
@@ -111,6 +165,23 @@ Data Fields</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Sends formatted output to KETCube terminal. </p>
+<p>Behaves similarly to the C printf function the String is prefixed by the module prefix string ("Arduino :: ") and terminated by the new line</p>
+<dl class="section note"><dt>Note</dt><dd>the string is produced only if Arduino module severity is set to 2 (INFO)</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">format</td><td>string that contains the text to be written to stdout. It can optionally contain embedded format tags that are replaced by the values specified in subsequent additional arguments &ndash; </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://sourceware.org/newlib/libc.html#sprintf">https://sourceware.org/newlib/libc.html#sprintf</a> </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">args</td><td>additional arguments depending on the format string </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
