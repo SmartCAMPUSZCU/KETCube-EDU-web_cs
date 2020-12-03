@@ -14,10 +14,10 @@
           "architecture": "stm32",
           "version": "0.2.0",
           "category": "Contributed",
-          "url": "https://edu.ketcube.cz/ketcube-arduino-0.2.0.tar.gz",
+          "url": "https://edu.ketcube.cz/files/ketcube-arduino-0.2.0.tar.gz",
           "archiveFileName": "ketcube-arduino-0.2.0.tar.gz",
-          "checksum": "SHA-256:c61f688da13ddfb0858081a3fd2cbd7eb953a7d6ce3bca8b9860169a19ee77c8",
-          "size": "15832",
+          "checksum": "SHA-256:6913ae446ab8dfdb3f5811ad14ca44857ed7006ad1e30ac87f216e1d69a7fb2c",
+          "size": "16416",
           "boards": [{ "name": "mainBoard v0.2.0" }],
           "toolsDependencies": [
             {
