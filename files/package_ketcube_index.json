@@ -16,8 +16,8 @@
           "category": "Contributed",
           "url": "https://edu.ketcube.cz/files/ketcube-arduino-0.2.0.tar.gz",
           "archiveFileName": "ketcube-arduino-0.2.0.tar.gz",
-          "checksum": "SHA-256:6913ae446ab8dfdb3f5811ad14ca44857ed7006ad1e30ac87f216e1d69a7fb2c",
-          "size": "16416",
+          "checksum": "SHA-256:2bbdc13142388f278658d9c5d7407d1643cbb7dba15fd3c62759a74d0501c313",
+          "size": "16516",
           "boards": [{ "name": "mainBoard v0.2.0" }],
           "toolsDependencies": [
             {
