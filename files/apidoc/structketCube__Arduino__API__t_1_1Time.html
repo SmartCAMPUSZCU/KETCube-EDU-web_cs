@@ -58,6 +58,12 @@ Data Fields</h2></td></tr>
 <tr class="memitem:a4fe69a1e857eb7fbe5ddb8282476af25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__KETCube__Arduino__API.html#ga102eee768567f9a15020c1a83d47ecb9">Time_millis_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structketCube__Arduino__API__t_1_1Time.html#a4fe69a1e857eb7fbe5ddb8282476af25">millis</a></td></tr>
 <tr class="memdesc:a4fe69a1e857eb7fbe5ddb8282476af25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of milliseconds since last KETCube PoR.  <a href="structketCube__Arduino__API__t_1_1Time.html#a4fe69a1e857eb7fbe5ddb8282476af25">More...</a><br /></td></tr>
 <tr class="separator:a4fe69a1e857eb7fbe5ddb8282476af25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08727d24457858b73c3ac88b330c33ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__KETCube__Arduino__API.html#gab883387a8374695db01e6708d19b65f4">Time_wakeAfter_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structketCube__Arduino__API__t_1_1Time.html#a08727d24457858b73c3ac88b330c33ed">wakeAfter</a></td></tr>
+<tr class="memdesc:a08727d24457858b73c3ac88b330c33ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wake KETCube after defined amount of time.  <a href="structketCube__Arduino__API__t_1_1Time.html#a08727d24457858b73c3ac88b330c33ed">More...</a><br /></td></tr>
+<tr class="separator:a08727d24457858b73c3ac88b330c33ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa3f871e0927d9320eff772a0e54cb8a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__KETCube__Arduino__API.html#gab89f8bff702251fec9094dbac2f981a0">Time_wakeIntervalElapsed_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structketCube__Arduino__API__t_1_1Time.html#afa3f871e0927d9320eff772a0e54cb8a">wakeIntervalElapsed</a></td></tr>
+<tr class="memdesc:afa3f871e0927d9320eff772a0e54cb8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the wake-up was caused by timer preset by <a class="el" href="structketCube__Arduino__API__t_1_1Time.html#a08727d24457858b73c3ac88b330c33ed" title="Wake KETCube after defined amount of time.">wakeAfter()</a> function.  <a href="structketCube__Arduino__API__t_1_1Time.html#afa3f871e0927d9320eff772a0e54cb8a">More...</a><br /></td></tr>
+<tr class="separator:afa3f871e0927d9320eff772a0e54cb8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>KETCube Arduino <a class="el" href="structketCube__Arduino__API__t_1_1Time.html" title="KETCube Arduino Time API.">Time</a> API. </p>
@@ -144,6 +150,50 @@ Data Fields</h2></td></tr>
 <dl class="retval"><dt>Return values</dt><dd>
   <table class="retval">
     <tr><td class="paramname">ms</td><td>the number of milliseconds since last KETCube PoR </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a08727d24457858b73c3ac88b330c33ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08727d24457858b73c3ac88b330c33ed">&#9670;&nbsp;</a></span>wakeAfter</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__KETCube__Arduino__API.html#gab883387a8374695db01e6708d19b65f4">Time_wakeAfter_t</a> ketCube_Arduino_API_t::Time::wakeAfter</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Wake KETCube after defined amount of time. </p>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">ms</td><td>the number of milliseconds from now to wake-up </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="afa3f871e0927d9320eff772a0e54cb8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa3f871e0927d9320eff772a0e54cb8a">&#9670;&nbsp;</a></span>wakeIntervalElapsed</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__KETCube__Arduino__API.html#gab89f8bff702251fec9094dbac2f981a0">Time_wakeIntervalElapsed_t</a> ketCube_Arduino_API_t::Time::wakeIntervalElapsed</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Check if the wake-up was caused by timer preset by <a class="el" href="structketCube__Arduino__API__t_1_1Time.html#a08727d24457858b73c3ac88b330c33ed" title="Wake KETCube after defined amount of time.">wakeAfter()</a> function. </p>
+<dl class="retval"><dt>Return values</dt><dd>
+  <table class="retval">
+    <tr><td class="paramname">flag</td><td>TRUE in case, that wake-up interval elapsed, else return FALSE </td></tr>
   </table>
   </dd>
 </dl>
