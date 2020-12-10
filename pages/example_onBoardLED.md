@@ -23,7 +23,7 @@ void loop() {
 }
 ```
 
-Proveďte tyto příkazy v terinálu:
+Proveďte tyto příkazy v terminálu:
 
 ```
 >>

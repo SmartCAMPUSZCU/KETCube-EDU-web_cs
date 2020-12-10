@@ -49,9 +49,7 @@
         </ul>
         {% endif %}
         
-        {% if site.logo_oshw %}
-          <img src="{{site.logo_oshw | relative_url}}" alt="OSHW Logo" />
-        {% endif %}
+        
         
       </header>
       <section>
@@ -61,14 +59,18 @@
       </section>
       <footer>
       
+        {% if site.logo_oshw %}
+          <img src="{{site.logo_oshw | relative_url}}" alt="OSHW Logo" />
+        {% endif %}
+      
         {% if site.github.maintainer %}
         
         {% if site.github.logo_mt %}
-          <img src="{{site.github.logo_mt | relative_url}}" alt="{{ site.github.maintainer }} Logo" />
+          <img src="{{site.github.logo_mt | relative_url}}" alt="{{ site.github.maintainer }} Logo SmartCAMPUS" />
         {% endif %}
         
-        {% if site.github.logo_mt2 %}
-          <img src="{{site.github.logo_sponsor | relative_url}}" alt="{{ site.github.sponsor }} Logo" />
+        {% if site.github.logo_sponsor %}
+          <img src="{{site.github.logo_sponsor | relative_url}}" alt="{{ site.github.sponsor }} Logo Pilsen" />
         {% endif %}
         
         <p><small>This project is developed by the <a href="{{ site.github.maintainer_url }}">{{ site.github.maintainer }}</a></small></p>

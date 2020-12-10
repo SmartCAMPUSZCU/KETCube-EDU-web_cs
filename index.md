@@ -1,6 +1,6 @@
 # KETCube EDU
 
-Edukační balíček pro [Arduino](www.arduino.cc).
+Edukační balíček pro [Arduino](https://www.arduino.cc).
 
 ![KETCube platform OLD PHOTO](ketCube_all_photo_webQ.jpg)
 
