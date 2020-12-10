@@ -6,10 +6,10 @@ logo_oshw: oshw-logo.png
 show_downloads: true
 github:
   maintainer: SmartCampus ZČU Team
-  maintainer2: ZČU
+  sponsor: City of Pilsen
   maintainer_url: https://github.com/SmartCAMPUSZCU
   logo_mt: sc-logo.png
-  logo_mt2: zcu-logo.png
+  logo_sponsor: plzen-logo.png
   is_project_page: false
   arduino_name: Balíček pro Arduino IDE
   arduino_json_url: https://edu.ketcube.cz/files/package_ketcube_index.json
