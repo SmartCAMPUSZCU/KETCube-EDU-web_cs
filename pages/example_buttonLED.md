@@ -77,7 +77,7 @@ void loop() {
 }
 ```
 
-Ve funkci *setup()* jednak nastavujeme PINy LED1 a LED2 jako LED dody, ale navíc nastavujeme také PIN *INT* jako zdroj přerušení. Přerušení se vyvolá při změně logické hodnoty na pinu (LOW -> HIGH nebo HIGH -> LOW).
+Ve funkci *setup()* jednak nastavujeme PINy LED1 a LED2 jako LED diody, ale navíc nastavujeme také PIN *INT* jako zdroj přerušení. Přerušení se vyvolá při změně logické hodnoty na pinu (LOW -> HIGH nebo HIGH -> LOW).
 
 Voláním funkce *KETCube.IO.attachInterrupt()* nastavíme obsluhu přerušení tak, že funkce *onPushButton()* se vykoná okamžitě po vyvolání přerušení - událost na PINu INT.
 
