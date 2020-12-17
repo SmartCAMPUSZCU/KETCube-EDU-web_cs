@@ -9,6 +9,7 @@ Edukační balíček pro [Arduino](https://www.arduino.cc).
   * [Příklad s tlačítkem - obsluha přerušení](pages/example_buttonLED.md)
   * [Čtení analogové hodnoty](pages/example_analogRead.md)
   * [Senzor teploty a LoRaWAN](pages/example_tempSensor.md)
+  * [Ovládání KETCube přes LoRaWAN](pages/example_remoteControl.md)
 
 ## Licence
 
