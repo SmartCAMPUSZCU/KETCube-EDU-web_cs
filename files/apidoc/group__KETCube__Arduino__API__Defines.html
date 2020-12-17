@@ -91,13 +91,21 @@ Enumerations</h2></td></tr>
 <tr class="memdesc:ga39a5f3af32d5a61076760aa56f4e6a78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arduino PIN definition.  <a href="group__KETCube__Arduino__API__Defines.html#ga39a5f3af32d5a61076760aa56f4e6a78">More...</a><br /></td></tr>
 <tr class="separator:ga39a5f3af32d5a61076760aa56f4e6a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga166df37be6c483a1856ae7facc07c5bd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__KETCube__Arduino__API__Defines.html#ga166df37be6c483a1856ae7facc07c5bd">ketCube_Arduino_pinMode_t</a> { <br />
-&#160;&#160;<a class="el" href="group__KETCube__Arduino__API__Defines.html#gga166df37be6c483a1856ae7facc07c5bda2ab08d3e103968f5f4f26b66a52e99d6">OUTPUT</a>, 
+&#160;&#160;<a class="el" href="group__KETCube__Arduino__API__Defines.html#gga166df37be6c483a1856ae7facc07c5bda49060614b990fe7d76fef9cd92990ce6">ANALOG</a> = 0x00, 
 <br />
-&#160;&#160;<a class="el" href="group__KETCube__Arduino__API__Defines.html#gga166df37be6c483a1856ae7facc07c5bdae310c909d76b003d016bef8bdf16936a">INPUT</a>, 
+&#160;&#160;<a class="el" href="group__KETCube__Arduino__API__Defines.html#gga166df37be6c483a1856ae7facc07c5bdae310c909d76b003d016bef8bdf16936a">INPUT</a> = 0x01, 
 <br />
-&#160;&#160;<a class="el" href="group__KETCube__Arduino__API__Defines.html#gga166df37be6c483a1856ae7facc07c5bda851c2ac60276ada62e8d9ba216c7a487">INPUT_PULLUP</a>, 
+&#160;&#160;<a class="el" href="group__KETCube__Arduino__API__Defines.html#gga166df37be6c483a1856ae7facc07c5bda2ab08d3e103968f5f4f26b66a52e99d6">OUTPUT</a> = 0x02, 
 <br />
-&#160;&#160;<a class="el" href="group__KETCube__Arduino__API__Defines.html#gga166df37be6c483a1856ae7facc07c5bda58b097229d3b2a4afa0eb445c1334927">INPUT_PULLDOWN</a>
+&#160;&#160;<a class="el" href="group__KETCube__Arduino__API__Defines.html#gga166df37be6c483a1856ae7facc07c5bda4fc910812e4c4fd9881853455ba5effa">IT_RISING</a> = 0x03, 
+<br />
+&#160;&#160;<a class="el" href="group__KETCube__Arduino__API__Defines.html#gga166df37be6c483a1856ae7facc07c5bdaa75793abf145d87b451064fa88d08f35">IT_FALLING</a> = 0x04, 
+<br />
+&#160;&#160;<a class="el" href="group__KETCube__Arduino__API__Defines.html#gga166df37be6c483a1856ae7facc07c5bdaa546d8d2978234e5918889ee8d1a61f0">IT_CHANGE</a> = 0x05, 
+<br />
+&#160;&#160;<a class="el" href="group__KETCube__Arduino__API__Defines.html#gga166df37be6c483a1856ae7facc07c5bda851c2ac60276ada62e8d9ba216c7a487">INPUT_PULLUP</a> = 0x10, 
+<br />
+&#160;&#160;<a class="el" href="group__KETCube__Arduino__API__Defines.html#gga166df37be6c483a1856ae7facc07c5bda58b097229d3b2a4afa0eb445c1334927">INPUT_PULLDOWN</a> = 0x20
 <br />
  }</td></tr>
 <tr class="memdesc:ga166df37be6c483a1856ae7facc07c5bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">digital PIN mode  <a href="group__KETCube__Arduino__API__Defines.html#ga166df37be6c483a1856ae7facc07c5bd">More...</a><br /></td></tr>
@@ -221,10 +229,9 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78aceb4e07988ce36a40df65fd124e9eba7"></a>IO4&#160;</td><td class="fielddoc"><p>KETCube PIN IO4. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a46aead023d905cfb01c37a23e34a8005"></a>AN&#160;</td><td class="fielddoc"><p>KETCube PIN AN <br  />
- </p>
+<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a46aead023d905cfb01c37a23e34a8005"></a>AN&#160;</td><td class="fielddoc"><p>KETCube PIN AN; this pin has ADC capability; this pin has DAC capability. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a7dcb79ea9485b2b09a8453d9f9f575c2"></a>RST&#160;</td><td class="fielddoc"><p>KETCube PIN RST. </p>
+<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a7dcb79ea9485b2b09a8453d9f9f575c2"></a>RST&#160;</td><td class="fielddoc"><p>KETCube PIN RST; this pin has ADC capability. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a78bcece98b40c207eb8988c589694e33"></a>CS&#160;</td><td class="fielddoc"><p>KETCube PIN CS <br  />
  </p>
@@ -239,10 +246,10 @@ Enumerations</h2></td></tr>
 </td></tr>
 <tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78afd5a5f51ce25953f3db2c7e93eb7864a"></a>INT&#160;</td><td class="fielddoc"><p>KETCube PIN INT. </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a4aca20d6e60fffb66e9668b3a6592531"></a>RX&#160;</td><td class="fielddoc"><p>KETCube PIN RX <br  />
+<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a4aca20d6e60fffb66e9668b3a6592531"></a>RX&#160;</td><td class="fielddoc"><p>KETCube PIN RX; this pin has ADC capability <br  />
  </p>
 </td></tr>
-<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a951f819598b53b2729ee0e4c05e6888e"></a>TX&#160;</td><td class="fielddoc"><p>KETCube PIN TX <br  />
+<tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a951f819598b53b2729ee0e4c05e6888e"></a>TX&#160;</td><td class="fielddoc"><p>KETCube PIN TX; this pin has ADC capability <br  />
  </p>
 </td></tr>
 <tr><td class="fieldname"><a id="gga39a5f3af32d5a61076760aa56f4e6a78a15126c1df0b2e468dcd9aeb225395b26"></a>SCL&#160;</td><td class="fielddoc"><p>KETCube PIN SCL. </p>
@@ -271,9 +278,17 @@ Enumerations</h2></td></tr>
 
 <p>digital PIN mode </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga166df37be6c483a1856ae7facc07c5bda2ab08d3e103968f5f4f26b66a52e99d6"></a>OUTPUT&#160;</td><td class="fielddoc"><p>PIN mode OUTPUT. </p>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga166df37be6c483a1856ae7facc07c5bda49060614b990fe7d76fef9cd92990ce6"></a>ANALOG&#160;</td><td class="fielddoc"><p>PIN mode ANALOG. </p>
 </td></tr>
 <tr><td class="fieldname"><a id="gga166df37be6c483a1856ae7facc07c5bdae310c909d76b003d016bef8bdf16936a"></a>INPUT&#160;</td><td class="fielddoc"><p>PIN mode INPUT. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga166df37be6c483a1856ae7facc07c5bda2ab08d3e103968f5f4f26b66a52e99d6"></a>OUTPUT&#160;</td><td class="fielddoc"><p>PIN mode OUTPUT. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga166df37be6c483a1856ae7facc07c5bda4fc910812e4c4fd9881853455ba5effa"></a>IT_RISING&#160;</td><td class="fielddoc"><p>trigger when the pin goes to high </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga166df37be6c483a1856ae7facc07c5bdaa75793abf145d87b451064fa88d08f35"></a>IT_FALLING&#160;</td><td class="fielddoc"><p>trigger when the pin goes to low </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga166df37be6c483a1856ae7facc07c5bdaa546d8d2978234e5918889ee8d1a61f0"></a>IT_CHANGE&#160;</td><td class="fielddoc"><p>trigger the interrupt whenever the pin changes value </p>
 </td></tr>
 <tr><td class="fieldname"><a id="gga166df37be6c483a1856ae7facc07c5bda851c2ac60276ada62e8d9ba216c7a487"></a>INPUT_PULLUP&#160;</td><td class="fielddoc"><p>PIN mode INPUT with PULL UP. </p>
 </td></tr>
