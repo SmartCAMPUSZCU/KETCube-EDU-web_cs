@@ -1,4 +1,4 @@
-# Příklad s tlačítkem - obsluha přerušení
+# Čtení analogové hodnoty
 
 V tomto příkladu se naučíte číst analogové hodnoty. 
 
@@ -44,6 +44,6 @@ void loop() {
 
 Ve funkci *setup()* nastavujeme PIN AN jako analogový vstup, ale navíc musíme také nastavit převodník analogové hodnoty - ADC (Analog to Digital Converter) - to uděláme pomocí funkce *KETCube.Analog.init()*.
 
-Voláním funkce *KETCube.Analog.read()* v každé periodě získáme okamžitou hodnotu napětí na PINu AN v milivoltech.
+Voláním funkce *KETCube.Analog.read()* v každé periodě (ve funkci *loop()*) získáme okamžitou hodnotu napětí na PINu AN v milivoltech.
 
 Po úspěšném překladu a nahrání kódu do KETCube otáčejte potenciometrem a sledujte hodnotu naměřeného napětí v Terminálu.
