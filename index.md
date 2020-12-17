@@ -6,6 +6,7 @@ Edukační balíček pro [Arduino](https://www.arduino.cc).
 
 ## Příklady
   * [Blikání LED na desce KETCube](pages/example_onBoardLED.md)
+  * [Příklad s tlačítkem - obsluha přerušení](pages/example_buttonLED.md)
 
 ## Licence
 

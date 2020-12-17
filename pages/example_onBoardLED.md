@@ -1,12 +1,19 @@
 # Blikání LED na desce KETCube
 
-Kód interaguje s KETCube terminálem - po startu vypíše na terminál "My First LED blink Example!" a nastaví obé LED na desce KETCube do režimu trvalého blikání.
+V tomto pŕíkladu si osvojíte základní práci s KETCube a rozblikáte LED diody na desce.
 
+## Zapojení desky
+
+K tomuto příkladu není potřeba ke KETCube připojovat žádné periferie. KETCube pouze připojte k PC: zapojte Micro USB kabel do desky KETCube UART.
+
+## Programování a spuštění
+
+Nahrajte následující kód do KETCube.
 
 ```c
 void setup() {
-  // Zobrazí zprávu v terminálu během inicializace
-  KETCube.Terminal.print("My First LED blink Example!");
+  // Zobrazí zprávu v terminálu na začátku inicializace
+  KETCube.Terminal.print("Blikajici LED @ KETCube");
 
   // Nastaví PINy LED1 a LED2 jako budiče LED
   KETCube.LED.init(LED1, LOW);
@@ -18,12 +25,24 @@ void setup() {
 }
 
 void loop() {
-  // žádný periodický kód
-
+  // V každé periodě vypíše následující text
+  KETCube.Terminal.print("basePeriod @ KETCube");
 }
 ```
 
-Proveďte tyto příkazy v terminálu:
+Vy výpisu kódu vidíte dvě funkce: *setup()* a *loop()*. zatímco funkce *setup()* se vykoná pouze jednou - a to ihned po startu KETCube, funkce *loop()* se vykonává opakovaně a periodu jejího opakování lze změnit pomocí terminálového příkazu *set core basePeriod*.
+
+Funkce dostupné na KETCube jsou ćlenény do několika kategorií a volány pomocí tečkové notace.
+
+Uvnitř funkce *setup()* vidíte volání funkce *print()* z kategorie *Terminál*, která je volána pomocí tečkové notace takto: *KETCube.Terminal.print()*. Tato funkce vypíše během fáze inicializace na Terminál text "Blikajici LED @ KETCube".
+
+Pomocí kategorie LED můžeme rovnou nastavit vybrané PINy jako řadiče LED diod a přiřadit jim určité chování: funkce *KETCube.LED.init()* nastaví PINy jako řadiče LED a funkce *KETCube.LED.set()* nastaví obě LED do režimu trvalého blikání.
+
+## Nastavení KETCube
+
+Aby KETCube spustil Váš kód, musíte v Terminálu nejprve povolit modul *Arduino*.
+
+Proveďte v terminálu tyto příkazy:
 
 ```
 >>
@@ -39,7 +58,9 @@ severity returned: 2
 
 ```
 
-Poté sledujte terminálový výstup KETCube:
+Nyní je modul *Arduino* povolen.
+
+Máte-li povolen modul *Arduino* a úspěšně jste nahráli kód tohoto příkladu do KETCube, vidíte synchronní blikání obou LED diod - zároveň pozorujte terminálový výstup KETCube:
 
 ```
 Executing command: reload
@@ -82,5 +103,3 @@ Arduino :: My First LED blink Example!
 >>
 
 ```
-
-Nyní vidíte synchronní blikání obou LED.
