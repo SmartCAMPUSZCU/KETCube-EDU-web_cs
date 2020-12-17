@@ -2,7 +2,7 @@
 
 V tomto příkladu se naučíte pracovat s jednoduchým senzorem teploty a odeslat naměřená data do sítě LoRaWAN. 
 
-Pokud jste ještě nepracovali s Terminálem, podívejte se nejprve na příklad [Blikání LED na desce KETCube](example_onBoardLED.md). Úvod ke čtení analogové hodnoty naleznete v příkladu [Čtení analogové hodnoty](pages/example_analogRead.md).
+Pokud jste ještě nepracovali s Terminálem, podívejte se nejprve na příklad [Blikání LED na desce KETCube](example_onBoardLED.md). Úvod ke čtení analogové hodnoty naleznete v příkladu [Čtení analogové hodnoty](example_analogRead.md).
 
 Základní nastavení KETCube je totožné jako v příkladu [Blikání LED na desce KETCube](example_onBoardLED.md)
 
@@ -72,7 +72,7 @@ void loop() {
 }
 ```
 
-Oproti příkladu [Čtení analogové hodnoty](pages/example_analogRead.md), kde voláním funkce *KETCube.Analog.read()* v každé periodě (ve funkci *loop()*) pouze zjišťujeme hodnotu napětí na vstupu KETCube, zde můžeme přepočtením této hodnoty získat teplotu naměřenou senzorem TMP36.
+Oproti příkladu [Čtení analogové hodnoty](example_analogRead.md), kde voláním funkce *KETCube.Analog.read()* v každé periodě (ve funkci *loop()*) pouze zjišťujeme hodnotu napětí na vstupu KETCube, zde můžeme přepočtením této hodnoty získat teplotu naměřenou senzorem TMP36.
 
 Poslední 3 řádky kódu slouží k předání naměřených hodnot modulu LoRa k odeslání do IoT sítě LoRaWAN. Hodnoty jsou po bytech uloženy do globálního pole v pořadí od nejvýznamnějších bytů (MSB-first) a odkaz na data je předán pomocí funkce *KETCube.LPWAN.send()*.
 
