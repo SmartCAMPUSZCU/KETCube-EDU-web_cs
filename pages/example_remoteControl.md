@@ -110,7 +110,26 @@ Nyní sledujte výstup Vašeho kódu v Terminálu, pozorujte LED diody a poslouc
 >>
 HDCX080 :: Temperature: 22 °C, RH: 54 %
 LoRa :: Transmitting sensor data: SUCCESS
-LoRa :: Rx DATA=01-10-08-09-08 on PORT=15
->>
+LoRa :: Rx DATA=03-09-08-07-06-05-04-03-02 on PORT=15
+Arduino :: LPWAN Rx (9)=03-09-08-07-06-05-04-03-02
+Arduino :: LED1+LED2
+Arduino :: Play: 9 kHz
+Arduino :: Play: 8 kHz
+Arduino :: Play: 7 kHz
+Arduino :: Play: 6 kHz
+Arduino :: Play: 5 kHz
+Arduino :: Play: 4 kHz
+Arduino :: Play: 3 kHz
+Arduino :: Play: 2 kHz
 
 ```
+
+Na terminálu vydíte:
+  * výstup modulu *HDCX080*: výpis teploty a vlhkosti
+  * Výpis modulu *LoRa*: 
+    * informace o úspěšném odeslání dat 
+    * informace o příjmu dat a výpis přijatých dat v HEX formátu
+  * následuje výpis modulu *Arduino*:
+    * informace o datech předaných modulem *LoRa* a jejich výpis v HEX formátu (není součástí Vaśeho kódu - tento výpis provádí knihovní funkce)
+    * informace o nastavení LED diod
+    * informace o frekvenci tónů naplánovaných k přehrátí: celkem vidíte 8 tónů s různou frekvencí

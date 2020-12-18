@@ -84,7 +84,7 @@ Ve funkci *setup()* jednak nastavujeme PINy LED1 a LED2 jako LED diody, ale nav�
 
 Voláním funkce *KETCube.IO.attachInterrupt()* nastavíme obsluhu přerušení tak, že funkce *onPushButton()* se vykoná okamžitě po vyvolání přerušení - událost na PINu INT.
 
-Navíc uložíme odkaz na funkci *onExitHandler()* do proměnné *KETCube.sleepExit*. Funkce *onExitHandler()* se pak vyvolá vždy, když KETCube opustí režim spánku. KETCube opustí režim spánku automaticky vždy po vyvolání přerušení.
+Navíc zaregistrujeme funkci *onExitHandler()* pomocí volání *KETCube.Core.regSleepExitHandler()*. Funkce *onExitHandler()* se pak vyvolá vždy, když KETCube opustí režim spánku. KETCube opustí režim spánku automaticky vždy po vyvolání přerušení.
 
 Po úspěšném překladu a nahrání kódu do KETCube budou obě LED diody na desce reagovat na stisk tlačítka: stisknete-li tlačítko, rozsvítí se LED2, uvolníte-li jej, rozsvítí se LED1.
 
