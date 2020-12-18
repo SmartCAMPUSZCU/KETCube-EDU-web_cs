@@ -59,8 +59,8 @@ Data Structures</h2></td></tr>
 Typedefs</h2></td></tr>
 <tr class="memitem:ga2729e460632ba297eebf2bc5e227a996"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__KETCube__Arduino__API.html#ga2729e460632ba297eebf2bc5e227a996">voidPtr_t</a>) (void)</td></tr>
 <tr class="separator:ga2729e460632ba297eebf2bc5e227a996"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga05ddad9eeea771285306dd93b53b22f0"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__KETCube__Arduino__API.html#ga05ddad9eeea771285306dd93b53b22f0">rxData_t</a>) (uint8_t *, uint8_t)</td></tr>
-<tr class="separator:ga05ddad9eeea771285306dd93b53b22f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0554b2e2a50f089274dce6650b3e3ece"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__KETCube__Arduino__API.html#ga0554b2e2a50f089274dce6650b3e3ece">rxHandler_t</a>) (uint8_t *, uint8_t)</td></tr>
+<tr class="separator:ga0554b2e2a50f089274dce6650b3e3ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa83906b923787049053be5ccb4149a95"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__KETCube__Arduino__API.html#gaa83906b923787049053be5ccb4149a95">IO_pinMode_t</a>) (<a class="el" href="group__KETCube__Arduino__API__Defines.html#ga39a5f3af32d5a61076760aa56f4e6a78">ketCube_Arduino_pin_t</a>, <a class="el" href="group__KETCube__Arduino__API__Defines.html#ga166df37be6c483a1856ae7facc07c5bd">ketCube_Arduino_pinMode_t</a>)</td></tr>
 <tr class="separator:gaa83906b923787049053be5ccb4149a95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga55472c3444380bde3a4152316bbc3beb"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__KETCube__Arduino__API.html#ga55472c3444380bde3a4152316bbc3beb">IO_digitalWrite_t</a>) (<a class="el" href="group__KETCube__Arduino__API__Defines.html#ga39a5f3af32d5a61076760aa56f4e6a78">ketCube_Arduino_pin_t</a>, <a class="el" href="group__KETCube__Arduino__API__Defines.html#gae2a23b8042dd3d8a6092d6920cf4d973">ketCube_Arduino_pinValue_t</a>)</td></tr>
@@ -105,8 +105,10 @@ Typedefs</h2></td></tr>
 <tr class="separator:gab89f8bff702251fec9094dbac2f981a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga18f13fcc4ad7799caa146f5434ac8569"><td class="memItemLeft" align="right" valign="top">typedef bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__KETCube__Arduino__API.html#ga18f13fcc4ad7799caa146f5434ac8569">LPWAN_send_t</a>) (uint8_t *, uint8_t)</td></tr>
 <tr class="separator:ga18f13fcc4ad7799caa146f5434ac8569"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad7193b96f19c7e88bf2914df48c068ba"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__KETCube__Arduino__API.html#gad7193b96f19c7e88bf2914df48c068ba">LPWAN_regOnRxHandler_t</a>) (<a class="el" href="group__KETCube__Arduino__API.html#ga05ddad9eeea771285306dd93b53b22f0">rxData_t</a>)</td></tr>
-<tr class="separator:gad7193b96f19c7e88bf2914df48c068ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga20141ae358e4ddf3671e5317e8dfb9a0"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__KETCube__Arduino__API.html#ga20141ae358e4ddf3671e5317e8dfb9a0">LPWAN_regOnRxHandler_t</a>) (<a class="el" href="group__KETCube__Arduino__API.html#ga0554b2e2a50f089274dce6650b3e3ece">rxHandler_t</a>)</td></tr>
+<tr class="separator:ga20141ae358e4ddf3671e5317e8dfb9a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga38b6a8492da38241c3bd31469c08c37c"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__KETCube__Arduino__API.html#ga38b6a8492da38241c3bd31469c08c37c">Core_regSleepExitHandler_t</a>) (<a class="el" href="group__KETCube__Arduino__API.html#ga2729e460632ba297eebf2bc5e227a996">voidPtr_t</a>)</td></tr>
+<tr class="separator:ga38b6a8492da38241c3bd31469c08c37c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga38d052daa8f07502c8931bb955d3c466"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structketCube__Arduino__API__t.html">ketCube_Arduino_API_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__KETCube__Arduino__API.html#ga38d052daa8f07502c8931bb955d3c466">ketCube_Arduino_API_t</a></td></tr>
 <tr class="memdesc:ga38d052daa8f07502c8931bb955d3c466"><td class="mdescLeft">&#160;</td><td class="mdescRight">KETCube API object.  <a href="group__KETCube__Arduino__API.html#ga38d052daa8f07502c8931bb955d3c466">More...</a><br /></td></tr>
 <tr class="separator:ga38d052daa8f07502c8931bb955d3c466"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,6 +157,20 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef void(* Analog_write_t) (<a class="el" href="group__KETCube__Arduino__API__Defines.html#ga39a5f3af32d5a61076760aa56f4e6a78">ketCube_Arduino_pin_t</a>, uint16_t)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga38b6a8492da38241c3bd31469c08c37c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga38b6a8492da38241c3bd31469c08c37c">&#9670;&nbsp;</a></span>Core_regSleepExitHandler_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef void(* Core_regSleepExitHandler_t) (<a class="el" href="group__KETCube__Arduino__API.html#ga2729e460632ba297eebf2bc5e227a996">voidPtr_t</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -261,14 +277,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="gad7193b96f19c7e88bf2914df48c068ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gad7193b96f19c7e88bf2914df48c068ba">&#9670;&nbsp;</a></span>LPWAN_regOnRxHandler_t</h2>
+<a id="ga20141ae358e4ddf3671e5317e8dfb9a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga20141ae358e4ddf3671e5317e8dfb9a0">&#9670;&nbsp;</a></span>LPWAN_regOnRxHandler_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* LPWAN_regOnRxHandler_t) (<a class="el" href="group__KETCube__Arduino__API.html#ga05ddad9eeea771285306dd93b53b22f0">rxData_t</a>)</td>
+          <td class="memname">typedef void(* LPWAN_regOnRxHandler_t) (<a class="el" href="group__KETCube__Arduino__API.html#ga0554b2e2a50f089274dce6650b3e3ece">rxHandler_t</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -317,14 +333,14 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="ga05ddad9eeea771285306dd93b53b22f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga05ddad9eeea771285306dd93b53b22f0">&#9670;&nbsp;</a></span>rxData_t</h2>
+<a id="ga0554b2e2a50f089274dce6650b3e3ece"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga0554b2e2a50f089274dce6650b3e3ece">&#9670;&nbsp;</a></span>rxHandler_t</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(* rxData_t) (uint8_t *, uint8_t)</td>
+          <td class="memname">typedef void(* rxHandler_t) (uint8_t *, uint8_t)</td>
         </tr>
       </table>
 </div><div class="memdoc">

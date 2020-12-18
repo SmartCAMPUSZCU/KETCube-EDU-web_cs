@@ -12,20 +12,20 @@ Nahrajte následující kód do KETCube.
 
 ```c
 void setup() {
-  // Zobrazí zprávu v terminálu na začátku inicializace
+  // Zobrazení zprávy v terminálu na začátku inicializace
   KETCube.Terminal.print("Blikajici LED @ KETCube");
 
-  // Nastaví PINy LED1 a LED2 jako budiče LED
-  KETCube.LED.init(LED1, LOW);
-  KETCube.LED.init(LED2, LOW);
+  // Nastavení PINů LED1 a LED2 - budiče LED
+  KETCube.LED.init(LED1, HIGH);
+  KETCube.LED.init(LED2, HIGH);
 
-  // Nastaví LED na trvalé blikání
+  // Nastavení LED na trvalé blikání
   KETCube.LED.set(LED1, LED_BLINK_CONT);
   KETCube.LED.set(LED2, LED_BLINK_CONT);
 }
 
 void loop() {
-  // V každé periodě vypíše následující text
+  // V každé periodě: vypsání textu
   KETCube.Terminal.print("basePeriod @ KETCube");
 }
 ```

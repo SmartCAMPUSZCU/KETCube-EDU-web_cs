@@ -25,8 +25,8 @@ Nahrajte následující kód do KETCube.
 
 ```c
 // Klíčové slovo volatile upozorní překladač,
-// aby neprováděl optimalizace přístupu k proměnné:
-// proměnná se může (paralelně) změnit v jiném kontextu
+// aby neprováděl optimalizace přístupu k proměnné
+// (proměnná může být změněna v jiném kontextu)
 volatile bool buttonPushed = FALSE; 
 
 // Funkce onPushButton se vykoná v kontextu přerušení
@@ -39,40 +39,43 @@ void onPushButton() {
 // Funkce onPushButton se vykoná mimo kontext přerušení
 void onExitHandler() {
   // Reakce na náběžnou hranu
-  if ((buttonPushed == TRUE) 
-    && (KETCube.IO.digitalRead(INT) == HIGH)) {
+  if ((buttonPushed == TRUE) && 
+        (KETCube.IO.digitalRead(INT) == HIGH)) {
+      // Pokud by přerušení bylo vyvoláno 
+      // krátkým zákmitem (rušení), opětovné čtení
+      // hodnoty PINu vliv zákmitu odfiltruje
       KETCube.LED.set(LED1, LED_ON);
       KETCube.LED.set(LED2, LED_OFF);
   // Reakce na spádovou hranu
-  } else if ((buttonPushed == TRUE) 
-    && (KETCube.IO.digitalRead(INT) == LOW)) {
+  } else if ((buttonPushed == TRUE) && 
+        (KETCube.IO.digitalRead(INT) == LOW)) {
       KETCube.LED.set(LED1, LED_OFF);
       KETCube.LED.set(LED2, LED_ON);
   }
 }
 
 void setup() {
-  // Zobrazí zprávu v terminálu na začátku inicializace
+  // Zobrazení zprávy v terminálu na začátku inicializace
   KETCube.Terminal.print("Preruseni @ KETCube");
 
-  // Nastaví PINy LED1 a LED2 jako budiče LED
-  KETCube.LED.init(LED1, LOW);
-  KETCube.LED.init(LED2, LOW);
+  // Nastavení PINů LED1 a LED2 jako budičů LED
+  KETCube.LED.init(LED1, HIGH);
+  KETCube.LED.init(LED2, HIGH);
   
   KETCube.LED.set(LED1, LED_OFF);
   KETCube.LED.set(LED2, LED_OFF);
 
-  // Nastaví interrupt na pinu INT
+  // Nastavení interruptu na pinu INT
   KETCube.IO.pinMode(INT, IT_CHANGE);
   KETCube.IO.attachInterrupt(INT, &onPushButton);
 
-  // Nastaví funkci onExitHandler 
-  // pro spušténí vždy po probuzení KETCube
-  KETCube.sleepExit = &onExitHandler;
+  // Registrace funkce onExitHandler 
+  // pro spuštění vždy po probuzení KETCube
+  KETCube.Core.regSleepExitHandler(&onExitHandler);
 }
 
 void loop() {
-  // V každé periodě vypíše následující text
+  // V každé periodě: vypsání textu
   KETCube.Terminal.print("basePeriod @ KETCube");
 }
 ```

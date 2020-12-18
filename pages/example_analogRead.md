@@ -25,19 +25,19 @@ Nahrajte následující kód do KETCube.
 
 ```c
 void setup() {
-  // Zobrazí zprávu v terminálu na začátku inicializace
+  // Zobrazení zprávy v terminálu na začátku inicializace
   KETCube.Terminal.print("ADC @ KETCube");
 
-  // Nastaví PIN AN jako analogový vstup
+  // Nastavení PINu AN - analogový vstup
   KETCube.IO.pinMode(AN, ANALOG);
 
-  // Inicializuje ADC
+  // Inicializace ADC
   KETCube.Analog.init();
 }
 
 void loop() {
-  // V každé periodě změří napětí na potenciometru
-  // a hodnotu napětí vypíše na Terminál
+  // Měření hodnoty napětí na potenciometru
+  // a výpis hodnotu napětí
   KETCube.Terminal.print("U = %d mV", KETCube.Analog.read(AN));
 }
 ```

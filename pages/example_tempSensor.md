@@ -24,7 +24,7 @@ Je potřeba přidat link na popis konfigurace LoRa.
 ---
 **POZNÁMKA**
 
-Detailní informace k senzoru teploty TMP36 získáte v [datovém listu](../files/datasheet/TMP35_36_37-1504323.pdf), kde se dozvíte mimo jiné o různých možnostech jeho zapojení.
+Detailní informace k senzoru teploty TMP36 získáte v [datovém listu](../files/datasheet/TMP35_36_37-1504323.pdf), kde se dozvíte, mimo jiné, o dalších možnostech jeho zapojení.
 
 ---
 
@@ -39,7 +39,7 @@ Nahrajte následující kód do KETCube.
 uint8_t buffer[2]; // pole pro předání hodnot modulu LoRa
 
 void setup() {
-  // Zobrazí zprávu v terminálu na začátku inicializace
+  // Zobrazení zprávy v terminálu na začátku inicializace
   KETCube.Terminal.print("TempSensor @ KETCube");
 
   // Nastaví PIN AN jako analogový vstup
