@@ -8,14 +8,18 @@ Základní nastavení KETCube je totožné jako v příkladu [Blikání LED na d
 
 ## Zapojení desky
 
-TODO: Je potřeba zapojit bzučák na budící PIN PWM.
+Potřebné součástky: pevný odpor 220R, modul piezo bzučáku, spojené desky KETCube mainBoard a KETCube UART, Micro USB kabel, propojovací kabely typu samec-samec, nepájivé pole
 
-Poté KETCube připojte k PC: zapojte Micro USB kabel do desky KETCube UART.
+Při zapojování postupujte takto:
+  * první vývod rezistoru 220R připojte k PINu PWM na KETCube
+  * druhý vývod rezistoru 220R připojte k prvnímu vývodu modulu piezo bzučáku
+  * druhý vývod piezo bzučáku připojte k PINu GND na KETCube
+  * poté KETCube připojte k PC: zapojte Micro USB kabel do desky KETCube UART
+
+![zapojeni](img/remoteControl.png)
 
 ---
 **TODO**
-
-schéma
 
 Je potřeba přidat link na popis konfigurace LoRa.
 

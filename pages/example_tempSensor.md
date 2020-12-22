@@ -8,18 +8,16 @@ Základní nastavení KETCube je totožné jako v příkladu [Blikání LED na d
 
 ## Zapojení desky
 
-TODO: Zapojte senzor teploty na AN PIN; senzor má mít blokovací kondík 100n
+Potřebné součástky: pevný odpor 220R, kondenzátor 100n, teplotní senzor TMP36, spojené desky KETCube mainBoard a KETCube UART, Micro USB kabel, propojovací kabely typu samec-samec, nepájivé pole
 
-Poté KETCube připojte k PC: zapojte Micro USB kabel do desky KETCube UART.
+Při zapojování postupujte takto:
+  * první vývod rezistoru 220R připojte k PINu AN na KETCube
+  * druhý vývod rezistoru 220R připojte k prostřednímu vývodu senzoru TMP36
+  * k napájecímu PINu TMP36 připojte první vývod kondenzátoru 100n a PIN 3V3 na KETCube
+  * k zemnímu PINu TMP36 připojte druhý vývod kondenzátoru 100n a PIN GND na KETCube
+  * poté KETCube připojte k PC: zapojte Micro USB kabel do desky KETCube UART
 
----
-**TODO**
-
-schéma - je možné využít obrázek 3-nožičkového vývodového tranzistoru: vypadá stejně
-
-Je potřeba přidat link na popis konfigurace LoRa.
-
----
+![zapojeni](img/temperatureSensor.png)
 
 ---
 **POZNÁMKA**

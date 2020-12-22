@@ -8,16 +8,17 @@ Nastavení KETCube je totožné jako v příkladu [Blikání LED na desce KETCub
 
 ## Zapojení desky
 
-Na PIN INT připojte pull-up rezistor. Na PIN INT dále připojte tlačítko přes ochranný odpor k zemi.
+Potřebné součástky: pevný odpor 10k, pevný odpor 220R, tlačítko, spojené desky KETCube mainBoard a KETCube UART, Micro USB kabel, propojovací kabely typu samec-samec, nepájivé pole
 
-Poté KETCube připojte k PC: zapojte Micro USB kabel do desky KETCube UART.
+Při zapojování postupujte takto:
+  * první vývod rezistoru 10k připojte k PINu 3V3 na KETCube
+  * druhý vývod rezistoru 10k připojte k PINu INT na KETCube
+  * k PINu INT na KETCube připojte také první vývod tlačítka
+  * druhý vývod tlačítka připojte k prvnímu vývodu odporu 220R
+  * druhý vývod odporu 220R připojte k PINu GND na KETCube
+  * poté KETCube připojte k PC: zapojte Micro USB kabel do desky KETCube UART
 
----
-**TODO**
-
-schéma
-
----
+![zapojeni](img/buttonLED.png)
 
 ## Programování a spuštění
 

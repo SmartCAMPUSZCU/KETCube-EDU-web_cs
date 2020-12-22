@@ -8,16 +8,15 @@ Nastavení KETCube je totožné jako v příkladu [Blikání LED na desce KETCub
 
 ## Zapojení desky
 
-TODO: PIN AN připojte přes potenciometr k zemi a přes pull-up k napájení.
+Potřebné součástky: 10k potenciometr, pevný odpor 220R, spojené desky KETCube mainBoard a KETCube UART, Micro USB kabel, propojovací kabely typu samec-samec, nepájivé pole
 
-Poté KETCube připojte k PC: zapojte Micro USB kabel do desky KETCube UART.
+Při zapojování postupujte takto:
+  * krajní vývod potenciometru připojte k rezistoru 220R a zároveň k PINu AN na KETCube
+  * druhý vývod rezistoru 220R připojte k PINu 3V3 na KETCube
+  * prostřední vývod potenciometru připojte k PINu GND na KETCube
+  * poté KETCube připojte k PC: zapojte Micro USB kabel do desky KETCube UART
 
----
-**TODO**
-
-schéma
-
----
+![zapojeni](img/analogRead.png)
 
 ## Programování a spuštění
 
@@ -46,4 +45,4 @@ Ve funkci *setup()* nastavujeme PIN AN jako analogový vstup, ale navíc musíme
 
 Voláním funkce *KETCube.Analog.read()* v každé periodě (ve funkci *loop()*) získáme okamžitou hodnotu napětí na PINu AN v milivoltech.
 
-Po úspěšném překladu a nahrání kódu do KETCube otáčejte potenciometrem a sledujte hodnotu naměřeného napětí v Terminálu.
+Po úspěšném překladu a nahrání kódu do KETCube otáčejte potenciometrem a sledujte měnící se hodnotu naměřeného napětí v Terminálu.
