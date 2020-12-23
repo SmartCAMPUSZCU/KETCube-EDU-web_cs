@@ -1,6 +1,6 @@
 # Blikání LED na desce KETCube
 
-V tomto pŕíkladu si osvojíte základní práci s KETCube a rozblikáte LED diody na desce.
+V tomto příkladu si osvojíte základní práci s KETCube a rozblikáte LED diody na desce.
 
 ## Zapojení
 
@@ -39,6 +39,8 @@ Uvnitř funkce *setup()* vidíte volání funkce *print()* z kategorie *Terminá
 Pomocí kategorie LED můžeme rovnou nastavit vybrané PINy jako řadiče LED diod a přiřadit jim určité chování: funkce *KETCube.LED.init()* nastaví PINy jako řadiče LED a funkce *KETCube.LED.set()* nastaví obě LED do režimu trvalého blikání.
 
 ## Nastavení KETCube
+
+Nejprve si přečtěte sekci [nastavení KETCube](settings.md).
 
 Aby KETCube spustil Váš kód, musíte v Terminálu nejprve povolit modul *Arduino*.
 

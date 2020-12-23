@@ -4,7 +4,7 @@ V tomto příkladu se naučíte pracovat s jednoduchým senzorem teploty a odesl
 
 Pokud jste ještě nepracovali s Terminálem, podívejte se nejprve na příklad [Blikání LED na desce KETCube](example_onBoardLED.md). Úvod ke čtení analogové hodnoty naleznete v příkladu [Čtení analogové hodnoty](example_analogRead.md).
 
-Základní nastavení KETCube je totožné jako v příkladu [Blikání LED na desce KETCube](example_onBoardLED.md)
+Základní nastavení KETCube je totožné jako v příkladu [Blikání LED na desce KETCube](example_onBoardLED.md), více se dozvíte v sekci [nastavení KETCube](settings.md).
 
 ## Zapojení
 

@@ -1,15 +1,20 @@
 # KETCube EDU
 
-KETCube je moderní vývojová platforma pro IoT, která byla vyvinuta na Fakultě elektrotechnické Západočeské univerzity v Plzni, je licencována jako tzv. Open Source Hardware, čili ji může používat úplně každý. Díky svým vlastnostem, modernímu designu, univerzálnosti, nízké spotřebě, možnosti přímé komunikace do IoT sítí (LoRaWAN a Sigfox) a cenové dostupnosti si našla uplatnění i v průmyslových aplikacích.
-Nyní se ve formě edukačního balíčku nazvaného “KETCube EDU pro Arduino” dostává do rukou široké veřejnosti a školám, a to díky integraci KETCube do globálně užívaného vývojového prostředí Arduino IDE. To znamená, že i programátor začátečník může začít ve svých prvních projektech platformu KETCube plně využívat.
+KETCube® je moderní vývojová platforma pro IoT, která byla vyvinuta na [Fakultě elektrotechnické](https://fel.zcu.cz) [Západočeské univerzity v Plzni](https://www.zcu.cz), je licencována jako tzv. Open Source Hardware, čili ji může používat úplně každý. Díky svým vlastnostem, modernímu designu, univerzálnosti, nízké spotřebě, možnosti přímé komunikace do IoT sítí (LoRaWAN a Sigfox) a cenové dostupnosti si našla uplatnění i v průmyslových aplikacích.
 
-Balení ve formě praktického kufříku s přihrádkami, potřebnými součástkami a moduly, které dostáváte do ruky, obsahuje vše potřebné pro pro úspěšný start při vývoji Vašich aplikací nejen v oblasti IoT.
+![KETCube KIT](files/KETCubeKIT.jpg)
+
+Nyní se ve formě edukačního balíčku nazvaného “KETCube EDU” pro [Arduino](https://www.arduino.cc) dostává do rukou široké veřejnosti a školám, a to díky integraci KETCube do globálně užívaného vývojového prostředí [Arduino IDE](https://www.arduino.cc/en/software). To znamená, že i programátor začátečník může začít ve svých prvních projektech platformu KETCube plně využívat.
 
 KETCube EDU pro Arduino vznikl jako projekt ZČU v Plzni za podpory města Plzeň v rámci projektu Plzeň univerzitní město 2020.
 
-Edukační balíček pro [Arduino](https://www.arduino.cc).
-
-![KETCube KIT](files/KETCubeKIT.jpg)
+## Začínáme s KETCube EDU
+  * [Seznámení s KETCube](pages/intro.md)
+  * [Základní sada KETCube EDU](pages/set_basic.md)
+  * [Postup instalace krok za krokem](pages/install.md)
+  * [Připojení KETCube k počítači](pages/connect.md)
+  * [Kompilace a nahrání kódu do KETCube](pages/compile.md)
+  * [Nastavení KETCube](pages/settings.md)
 
 ## Příklady
   * [Blikání LED na desce KETCube](pages/example_onBoardLED.md)

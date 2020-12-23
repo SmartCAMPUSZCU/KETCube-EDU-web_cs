@@ -4,7 +4,7 @@ V tomto příkladu se naučíte číst analogové hodnoty.
 
 Pokud jste ještě nepracovali s Terminálem a LED diodami, podívejte se nejprve na příklad [Blikání LED na desce KETCube](example_onBoardLED.md)
 
-Nastavení KETCube je totožné jako v příkladu [Blikání LED na desce KETCube](example_onBoardLED.md)
+Nastavení KETCube je totožné jako v příkladu [Blikání LED na desce KETCube](example_onBoardLED.md), více se dozvíte v sekci [nastavení KETCube](settings.md).
 
 ## Zapojení
 
