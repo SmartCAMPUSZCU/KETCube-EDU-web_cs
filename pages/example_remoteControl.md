@@ -83,7 +83,7 @@ void loop() {
 Oproti příkladu [Senzor teploty a LoRaWAN](example_tempSensor.md), je potřeba pro zpracování přijatých dat definovat a zaregistrovat (callback) funkci pro zpracování dat. V tomto příkladu se jedná o funkci *onNewData()*. Registraci funkce pro zpracování přijatých dat provedeme pomocí volání *KETCube.LPWAN.regOnRxHandler()* ve funkci *setup()*.
 
 Funkce *onNewData()* má 2 parametry: odkaz (ukazatel) na pole přijatých dat a délku tohoto pole. Uvnitř funkce je provedeno dekódování a zpracování přijatých dat:
-  * 1. byte přijatých dat je použit pro ovládání LED diod: 
+  * první byte přijatých dat je použit pro ovládání LED diod: 
     * je-li roven 1, problikne LED1
     * je-li roven 2, problikne LED2
     * je-li roven 3, probliknou obě diody
