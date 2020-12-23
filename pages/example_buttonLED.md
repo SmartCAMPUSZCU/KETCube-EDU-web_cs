@@ -6,7 +6,7 @@ Pokud jste ještě nepracovali s Terminálem a LED diodami, podívejte se nejprv
 
 Nastavení KETCube je totožné jako v příkladu [Blikání LED na desce KETCube](example_onBoardLED.md)
 
-## Zapojení desky
+## Zapojení
 
 Potřebné součástky: pevný odpor 10k, pevný odpor 220R, tlačítko, spojené desky KETCube mainBoard a KETCube UART, Micro USB kabel, propojovací kabely typu samec-samec, nepájivé pole
 

@@ -2,7 +2,7 @@
 
 V tomto pŕíkladu si osvojíte základní práci s KETCube a rozblikáte LED diody na desce.
 
-## Zapojení desky
+## Zapojení
 
 K tomuto příkladu není potřeba ke KETCube připojovat žádné periferie. KETCube pouze připojte k PC: zapojte Micro USB kabel do desky KETCube UART.
 

@@ -6,7 +6,7 @@ Pokud jste ještě nepracovali s Terminálem, podívejte se nejprve na příklad
 
 Základní nastavení KETCube je totožné jako v příkladu [Blikání LED na desce KETCube](example_onBoardLED.md)
 
-## Zapojení desky
+## Zapojení
 
 Potřebné součástky: pevný odpor 220R, modul piezo bzučáku, spojené desky KETCube mainBoard a KETCube UART, Micro USB kabel, propojovací kabely typu samec-samec, nepájivé pole
 
