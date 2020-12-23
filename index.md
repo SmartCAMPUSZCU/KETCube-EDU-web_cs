@@ -6,7 +6,7 @@ KETCube® je moderní vývojová platforma pro IoT, která byla vyvinuta na [Fak
 
 Nyní se ve formě edukačního balíčku nazvaného “KETCube EDU” pro [Arduino](https://www.arduino.cc) dostává do rukou široké veřejnosti a školám, a to díky integraci KETCube do globálně užívaného vývojového prostředí [Arduino IDE](https://www.arduino.cc/en/software). To znamená, že i programátor začátečník může začít ve svých prvních projektech platformu KETCube plně využívat.
 
-KETCube EDU pro Arduino vznikl jako projekt ZČU v Plzni za podpory města Plzeň v rámci projektu Plzeň univerzitní město 2020.
+KETCube EDU pro Arduino vznikl jako projekt ZČU v Plzni za podpory města [Plzeň](https://www.plzen.eu) v rámci projektu Plzeň univerzitní město 2020.
 
 ## Začínáme s KETCube EDU
   * [Seznámení s KETCube](pages/intro.md)
@@ -15,6 +15,7 @@ KETCube EDU pro Arduino vznikl jako projekt ZČU v Plzni za podpory města Plze�
   * [Připojení KETCube k počítači](pages/connect.md)
   * [Kompilace a nahrání kódu do KETCube](pages/compile.md)
   * [Nastavení KETCube](pages/settings.md)
+  * [Nastavení LoRaWAN v KETCube](pages/lorawan.md)
 
 ## Příklady
   * [Blikání LED na desce KETCube](pages/example_onBoardLED.md)
