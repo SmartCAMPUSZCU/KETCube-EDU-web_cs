@@ -45,7 +45,7 @@ Jednoznačný identifikátor zařízení o délce 64 bitů, který je přiřazen
 ### nwkSKey
 Síťový klíč relace o délce 128 bitů. Používá se pro ověření integrity přenášených dat. V případě *OTAA* je odvozen od *appKey*, v případě *ABP* je jeho hodnota pro dané zařízení konstantní.
 
-## Kontrola aktuálního nastavení LoRaWAN v KETCube
+## Kontrola aktuálního nastavení
 Aktuální nastavení modulu LoRa v KETCube zjistíte pomocí [terminálu](settings.md): je-li modul **LoRa** povolen s nastavenou závažností (severity) na úrovni INFO, je po resetu KETCube vypsáno aktuální nastavení modulu - včetně všech důležitých parametrů:
 
 ```
@@ -68,9 +68,11 @@ Většinu z těchto parametrů lze změnit pomocí příkazu **set** a individu�
 ...
 ```
 
+Všimněte si, že dlouhá čísla - jako klíće a identifikátory se zadávají v hexadecimálním formátu. 
+
 LoRaWAN parametry musíte nastavit shodně na aplikačním serveru vaší LoRaWAN sítě a v zařízení KETCube. KETCube umožňuje modifikovat parametr *devEUI*, ale tento postup není doporučen pro běžné užití.
 
-Pro většinu pŕípadů doporučujeme definovat zařízení jako zařízení třídy A (výchozí hodnota) a k síti se doporučujeme připojovat metodu *OTAA* (výchozí hodnota).
+Pro většinu případů doporučujeme definovat zařízení jako zařízení třídy A (výchozí hodnota) a k síti se doporučujeme připojovat metodou *OTAA* (výchozí hodnota).
 
 Použijete-li metodu *OTAA*, stačí na serveru nastavit *devEUI* vašeho zařízení a nastavit shodně parametry *appEUI* a *appKey*.
 

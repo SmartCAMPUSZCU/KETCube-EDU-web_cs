@@ -60,17 +60,23 @@
       <footer>
       
         {% if site.logo_oshw %}
+        <a href="{{site.url_oshw}}">
           <img src="{{site.logo_oshw | relative_url}}" alt="OSHW Logo" />
+        </a>
         {% endif %}
       
         {% if site.github.maintainer %}
         
         {% if site.github.logo_mt %}
+        <a href="{{site.github.url_mt}}">
           <img src="{{site.github.logo_mt | relative_url}}" alt="{{ site.github.maintainer }} Logo SmartCAMPUS" />
+        </a>
         {% endif %}
         
         {% if site.github.logo_sponsor %}
+        <a href="{{site.github.url_sponsor}}">
           <img src="{{site.github.logo_sponsor | relative_url}}" alt="{{ site.github.sponsor }} Logo Pilsen" />
+        </a>
         {% endif %}
         
         <p><small>This project is developed by the <a href="{{ site.github.maintainer_url }}">{{ site.github.maintainer }}</a></small></p>

@@ -4,9 +4,7 @@ KETCube® je moderní vývojová platforma pro IoT, která byla vyvinuta na [Fak
 
 ![KETCube KIT](files/KETCubeKIT.jpg)
 
-Nyní se ve formě edukačního balíčku nazvaného “KETCube EDU” pro [Arduino](https://www.arduino.cc) dostává do rukou široké veřejnosti a školám, a to díky integraci KETCube do globálně užívaného vývojového prostředí [Arduino IDE](https://www.arduino.cc/en/software). To znamená, že i programátor začátečník může začít ve svých prvních projektech platformu KETCube plně využívat.
-
-KETCube EDU pro Arduino vznikl jako projekt ZČU v Plzni za podpory města [Plzeň](https://www.plzen.eu) v rámci projektu Plzeň univerzitní město 2020.
+Nyní se ve formě edukačního balíčku nazvaného “KETCube EDU” pro [Arduino](https://www.arduino.cc) dostává do rukou široké veřejnosti a školám, a to díky integraci KETCube® do globálně užívaného vývojového prostředí [Arduino IDE](https://www.arduino.cc/en/software). To znamená, že i programátor začátečník může začít ve svých prvních projektech platformu KETCube® plně využívat.
 
 ## Začínáme s KETCube EDU
   * [Seznámení s KETCube](pages/intro.md)
@@ -26,7 +24,9 @@ KETCube EDU pro Arduino vznikl jako projekt ZČU v Plzni za podpory města [Plze
 
 ## Licence
 
-KETCube i KETCube EDU je poskytován zdarma Západočeskou univerzitou v Plzni za podmínek uvedených v [LICENCI](LICENSE.md).
+KETCube® i KETCube EDU je poskytován zdarma Západočeskou univerzitou v Plzni za podmínek uvedených v [LICENCI](LICENSE.md).
 
-KETCube je registrovaná ochranná známka Západočeské univerzity v Plzni.
+KETCube® je registrovaná ochranná známka Západočeské univerzity v Plzni.
+
+KETCube EDU pro Arduino vznikl jako projekt ZČU v Plzni za podpory města [Plzeň](https://www.plzen.eu) v rámci projektu **Plzeň univerzitní město 2020**
 

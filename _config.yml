@@ -3,13 +3,16 @@ title: KETCube EDU - Edukační balíček pro Arduino
 description: Edukační balíček pro Arduino na platformě KETCube
 logo: logo.png
 logo_oshw: oshw-logo.png
+url_oshw: https://www.oshwa.org/
 show_downloads: true
 github:
   maintainer: SmartCampus ZČU Team
   sponsor: City of Pilsen
   maintainer_url: https://github.com/SmartCAMPUSZCU
   logo_mt: sc-logo.png
+  url_mt: https://www.smartcampus.cz/
   logo_sponsor: plzen-logo.png
+  url_sponsor: https://www.plzen.eu/
   is_project_page: false
   arduino_name: Balíček pro Arduino IDE
   arduino_json_url: https://edu.ketcube.cz/files/package_ketcube_index.json
