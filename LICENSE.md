@@ -6,7 +6,7 @@ All rights reserved.
 
 Developed by:
 The SmartCAMPUS Team
-Department of Technologies and Measurement
+Department of Materials and Technology
 Faculty of Electrical Engineering
 www.smartcampus.cz/en | www.zcu.cz/en
 
