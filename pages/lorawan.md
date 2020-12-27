@@ -68,7 +68,7 @@ Většinu z těchto parametrů lze změnit pomocí příkazu **set** a individu�
 ...
 ```
 
-Všimněte si, že dlouhá čísla - jako klíće a identifikátory se zadávají v hexadecimálním formátu. 
+Všimněte si, že dlouhá čísla - jako klíče a identifikátory se zadávají v hexadecimálním formátu. 
 
 LoRaWAN parametry musíte nastavit shodně na aplikačním serveru vaší LoRaWAN sítě a v zařízení KETCube. KETCube umožňuje modifikovat parametr *devEUI*, ale tento postup není doporučen pro běžné užití.
 
@@ -109,9 +109,9 @@ LoRa :: Transmitting sensor data: ERROR
 ```
 pak máte s velkou pravděpodobností špatně nastaven poměr mezi periodou měření - parametr *core basePeriod* -  a tzv. *data-rate* - parametr *LoRa txDatarate*.
 
-V síti LoRaWAN může zařízení vysílat na daném kanále maximálně 1% času. Modulace LoRa, která je v síti LoRaWAN použita umožňuje velmi spolehlivý přenos dat za cenu délky vysílání. To vśak znamená, že trvá-li vysílání např. 1 sekundu, na témže kanále může KETCube vysílat až za 99 sekund. 
+V síti LoRaWAN může zařízení vysílat na daném kanále maximálně 1% času. Modulace LoRa, která je v síti LoRaWAN použita umožňuje velmi spolehlivý přenos dat za cenu délky vysílání. To však znamená, že trvá-li vysílání např. 1 sekundu, na témže kanále může KETCube vysílat až za 99 sekund. 
 
-LoRaWAN však umožňuje nastavení parametrů vysílání a modulace tak, že se doba vysílání zkrátí - za cenu snížení spolehlivosti přenosu a tedy i dosahu. Obecně lze říci, že máte-li dobré pokrytí sítě LoRaWAN, můžete snížit dobu vysílání a vysílat častěji. Jste-li však velmi vzdáleni od nejbližšího vysílače (*gateway*), nebo je vaše zařízení umístěno v místech s nižší penetrací signálu (železobetonové budovy, sklepy, apod.), měli byste zvýšit periodu vysílání a použít spolehlivějśí přenos.
+LoRaWAN však umožňuje nastavení parametrů vysílání a modulace tak, že se doba vysílání zkrátí - za cenu snížení spolehlivosti přenosu a tedy i dosahu. Obecně lze říci, že máte-li dobré pokrytí sítě LoRaWAN, můžete snížit dobu vysílání a vysílat častěji. Jste-li však velmi vzdáleni od nejbližšího vysílače (*gateway*), nebo je vaše zařízení umístěno v místech s nižší penetrací signálu (železobetonové budovy, sklepy, apod.), měli byste zvýšit periodu vysílání a použít spolehlivější přenos.
 
 V případě dobrého pokrytí nastavte parametr *txDatarate* až na hodnotu 5, v případě velmi špatného pokrytí na hodnotu 0 (výchozí hodnota - nejspolehlivější přenos). Podle parametru *txDatarate* pak nastavte parametr *basePeriod* tak, abyste eliminovali neúspěšné pokusy o vysílání.
 
