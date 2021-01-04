@@ -18,12 +18,6 @@ Při zapojování postupujte takto:
 
 ![zapojeni](img/remoteControl.png)
 
----
-**TODO**
-
-Je potřeba přidat link na popis konfigurace LoRa.
-
----
 
 ## Programování a spuštění
 
@@ -52,7 +46,7 @@ void onNewData(byte * buffer, byte len) {
   for (i = 1; i < len; i++) {
     // tóny jsou přijaty v jednotkách kHz
     // každý ton bude znít 300 ms,
-    // následovat bude pauza 500ms
+    // následovat bude pauza 1000ms
     KETCube.PWM.tone(buffer[i] * 1000, 300, 1000);
     KETCube.Terminal.print("Play: %d kHz", buffer[i]);
   }
@@ -125,15 +119,14 @@ Arduino :: Play: 5 kHz
 Arduino :: Play: 4 kHz
 Arduino :: Play: 3 kHz
 Arduino :: Play: 2 kHz
-
 ```
 
-Na terminálu vydíte:
+Na terminálu vidíte:
   * výstup modulu *HDCX080*: výpis teploty a vlhkosti
-  * Výpis modulu *LoRa*: 
+  * výstup modulu *LoRa*: 
     * informace o úspěšném odeslání dat 
     * informace o příjmu dat a výpis přijatých dat v HEX formátu
-  * následuje výpis modulu *Arduino*:
+  * následuje výstup modulu *Arduino*:
     * informace o datech předaných modulem *LoRa* a jejich výpis v HEX formátu (není součástí Vaśeho kódu - tento výpis provádí knihovní funkce)
     * informace o nastavení LED diod
     * informace o frekvenci tónů naplánovaných k přehrátí: celkem vidíte 8 tónů s různou frekvencí
