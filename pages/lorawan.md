@@ -16,13 +16,13 @@ KETCube EDU je kompatibilní s protokolem LoRaWAN verze 1.0.3, i když specifick
 ## Základní pojmy
 
 ### ABP (Activation-By-Personalization)
-Nejjednodušší metoda připojení k síti LoRaWAN. Zařízení se připojí do sítě na základě statické adresy( *devAddr*) a klíčů sezení - *appSKey* a nwkSKey* - jež jsou trvale uloženy v zařízení.
+Nejjednodušší metoda připojení k síti LoRaWAN. Zařízení se připojí do sítě na základě statické adresy( *devAddr*) a klíčů sezení - *appSKey* a *nwkSKey* - jež jsou trvale uloženy v zařízení.
 
 ### AES (Advanced-Encryption-Standard)
 Standardizovaný šifrovací algoritmus. V síti LoRa se pracuje se 128-bitovými AES klíči.
 
 ### OTAA (Over-The-Air Activation)
-Preferované metoda připojení k síti LoRaWAN. Zařízení se připojí do sítě na základě identifikátorů *appEUI*, *devEUI* a *appKey* a je mu dynamicky přiřazena síťová adresa *nwkAddr* a jsou vygenerovány šifrovací klíče pro samotné zabezpečení komunikace (*appSKey* a nwkSKey*).
+Preferované metoda připojení k síti LoRaWAN. Zařízení se připojí do sítě na základě identifikátorů *appEUI*, *devEUI* a *appKey* a je mu dynamicky přiřazena síťová adresa *nwkAddr* a jsou vygenerovány šifrovací klíče pro samotné zabezpečení komunikace (*appSKey* a *nwkSKey*).
 
 ### appEUI
 Identifikátor aplikace o délce 64 bitů.
