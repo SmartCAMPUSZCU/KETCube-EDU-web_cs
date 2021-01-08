@@ -1,8 +1,8 @@
 # Ovládání KETCube přes LoRaWAN
 
-V tomto příkladu se naučíte pracovat s *downlink* zprávami v síti LoRaWAN a naprogramujete vzdálené ovládání periferií KETCube.
+V tomto příkladu se naučíte pracovat s *downlink* zprávami v síti LoRaWAN a naprogramujete vzdálené ovládání periferií KETCube. Návod na práci s *downlink* zprávami na straně serveru získáte od vašeho poskytovatele sítě LoRaWAN.
 
-Pokud jste ještě nepracovali s Terminálem, podívejte se nejprve na příklad [Blikání LED na desce KETCube](example_onBoardLED.md). Základní pŕíklad práce s LoRaWAN naleznete v příkladu [Senzor teploty a LoRaWAN](example_tempSensor.md).
+Pokud jste ještě nepracovali s Terminálem, podívejte se nejprve na příklad [Blikání LED na desce KETCube](example_onBoardLED.md). Základní příklad práce s LoRaWAN naleznete v příkladu [Senzor teploty a LoRaWAN](example_tempSensor.md).
 
 Základní nastavení KETCube je totožné jako v příkladu [Blikání LED na desce KETCube](example_onBoardLED.md), více se dozvíte v sekci [nastavení KETCube](settings.md). Podrobnosti k nastavení modulu LoRa v KETCube se dočtete v sekci [Nastavení LoRaWAN v KETCube](lorawan.md).
 
