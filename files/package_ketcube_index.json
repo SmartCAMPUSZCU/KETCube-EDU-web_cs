@@ -12,12 +12,12 @@
         {
           "name": "KETCube Core",
           "architecture": "stm32",
-          "version": "0.2.0",
+          "version": "0.2.1",
           "category": "Contributed",
-          "url": "https://edu.ketcube.cz/files/ketcube-arduino-0.2.0.tar.gz",
-          "archiveFileName": "ketcube-arduino-0.2.0.tar.gz",
-          "checksum": "SHA-256:a0a695c80de1bad0173659dc25fe8011eff297025d4582c7fbbf4c539bf7e37a",
-          "size": "16692",
+          "url": "https://edu.ketcube.cz/files/ketcube-arduino-0.2.1.tar.gz",
+          "archiveFileName": "ketcube-arduino-0.2.1.tar.gz",
+          "checksum": "SHA-256:92439df30e57f2c3daebb4bd47c96d850332762a3b052d8ae88a4b4b17e4a459",
+          "size": "16696",
           "boards": [{ "name": "mainBoard v0.2.0" }],
           "toolsDependencies": [
             {

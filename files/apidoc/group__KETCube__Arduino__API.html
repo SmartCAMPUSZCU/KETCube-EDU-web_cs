@@ -107,6 +107,12 @@ Typedefs</h2></td></tr>
 <tr class="separator:ga18f13fcc4ad7799caa146f5434ac8569"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga20141ae358e4ddf3671e5317e8dfb9a0"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__KETCube__Arduino__API.html#ga20141ae358e4ddf3671e5317e8dfb9a0">LPWAN_regOnRxHandler_t</a>) (<a class="el" href="group__KETCube__Arduino__API.html#ga0554b2e2a50f089274dce6650b3e3ece">rxHandler_t</a>)</td></tr>
 <tr class="separator:ga20141ae358e4ddf3671e5317e8dfb9a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacc851fd1f6731b983839a012816a0544"><td class="memItemLeft" align="right" valign="top">typedef bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__KETCube__Arduino__API.html#gacc851fd1f6731b983839a012816a0544">I2C_init_t</a>) (void)</td></tr>
+<tr class="separator:gacc851fd1f6731b983839a012816a0544"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabb7215875e724107c3d84e71729cdea3"><td class="memItemLeft" align="right" valign="top">typedef bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__KETCube__Arduino__API.html#gabb7215875e724107c3d84e71729cdea3">I2C_read_t</a>) (uint8_t, uint8_t *, uint16_t)</td></tr>
+<tr class="separator:gabb7215875e724107c3d84e71729cdea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6b7e23cea13424f01cd09969f7b2c087"><td class="memItemLeft" align="right" valign="top">typedef bool(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__KETCube__Arduino__API.html#ga6b7e23cea13424f01cd09969f7b2c087">I2C_write_t</a>) (uint8_t, uint8_t *, uint16_t)</td></tr>
+<tr class="separator:ga6b7e23cea13424f01cd09969f7b2c087"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga38b6a8492da38241c3bd31469c08c37c"><td class="memItemLeft" align="right" valign="top">typedef void(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__KETCube__Arduino__API.html#ga38b6a8492da38241c3bd31469c08c37c">Core_regSleepExitHandler_t</a>) (<a class="el" href="group__KETCube__Arduino__API.html#ga2729e460632ba297eebf2bc5e227a996">voidPtr_t</a>)</td></tr>
 <tr class="separator:ga38b6a8492da38241c3bd31469c08c37c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga38d052daa8f07502c8931bb955d3c466"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="structketCube__Arduino__API__t.html">ketCube_Arduino_API_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__KETCube__Arduino__API.html#ga38d052daa8f07502c8931bb955d3c466">ketCube_Arduino_API_t</a></td></tr>
@@ -171,6 +177,48 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">typedef void(* Core_regSleepExitHandler_t) (<a class="el" href="group__KETCube__Arduino__API.html#ga2729e460632ba297eebf2bc5e227a996">voidPtr_t</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gacc851fd1f6731b983839a012816a0544"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gacc851fd1f6731b983839a012816a0544">&#9670;&nbsp;</a></span>I2C_init_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef bool(* I2C_init_t) (void)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="gabb7215875e724107c3d84e71729cdea3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gabb7215875e724107c3d84e71729cdea3">&#9670;&nbsp;</a></span>I2C_read_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef bool(* I2C_read_t) (uint8_t, uint8_t *, uint16_t)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ga6b7e23cea13424f01cd09969f7b2c087"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6b7e23cea13424f01cd09969f7b2c087">&#9670;&nbsp;</a></span>I2C_write_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef bool(* I2C_write_t) (uint8_t, uint8_t *, uint16_t)</td>
         </tr>
       </table>
 </div><div class="memdoc">
