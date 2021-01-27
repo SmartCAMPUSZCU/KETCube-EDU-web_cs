@@ -14,7 +14,7 @@
           "architecture": "stm32",
           "version": "0.2.0",
           "category": "Contributed",
-          "url": "https://edu.ketcube.cz/files/ketcube-arduino-0.2.0.tar.gz",
+          "url": "https://github.com/SmartCAMPUSZCU/KETCube-arduino/releases/download/v0.2.0/ketcube-arduino-0.2.0.tar.gz",
           "archiveFileName": "ketcube-arduino-0.2.0.tar.gz",
           "checksum": "SHA-256:a0a695c80de1bad0173659dc25fe8011eff297025d4582c7fbbf4c539bf7e37a",
           "size": "16692",
@@ -38,9 +38,9 @@
           "architecture": "stm32",
           "version": "0.2.1",
           "category": "Contributed",
-          "url": "https://edu.ketcube.cz/files/ketcube-arduino-0.2.1.tar.gz",
-          "archiveFileName": "ketcube-arduino-0.2.1.tar.gz",
-          "checksum": "SHA-256:95c3daa1fbfb62341441df0b25a118b9ca4489f069d662d923d9e3cd26ed6699",
+          "url": "https://github.com/SmartCAMPUSZCU/KETCube-arduino/releases/download/v0.2.1/KETCube-Arduino-board.tar.gz",
+          "archiveFileName": "KETCube-Arduino-board.tar.gz",
+          "checksum": "SHA-256:a89e3bf5ebb486d9c8b62f3bb5f1cc54d456e7f4784e76809813bd3dbc1a3a3d",
           "size": "16696",
           "boards": [{ "name": "mainBoard v0.2.0" }],
           "toolsDependencies": [
@@ -56,6 +56,7 @@
             }
           ]
         }
+
       ],
       "tools": [
       {
