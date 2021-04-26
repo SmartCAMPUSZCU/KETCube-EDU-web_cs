@@ -55,8 +55,32 @@
               "version": "1.4.0"
             }
           ]
-        }
+        },
 
+        {
+          "name": "KETCube Core",
+          "architecture": "stm32",
+          "version": "0.2.2",
+          "category": "Contributed",
+          "url": "https://edu.ketcube.cz/files/releases/v0.2.2/KETCube-Arduino-board.tar.gz",
+          "archiveFileName": "KETCube-Arduino-board.tar.gz",
+          "checksum": "SHA-256:eae3eaaabbc8a119fbe7dc5e1fb7cd468b1d1ca886a39c19604a7c7544a33949",
+          "size": "16696",
+          "boards": [{ "name": "mainBoard v0.2.0" }],
+          "toolsDependencies": [
+            {
+              "packager": "KETCube",
+              "name": "arm-none-eabi-gcc",
+              "version": "8.2.1-1.7"
+            },
+            {
+              "packager": "KETCube",
+              "name": "STM32Tools",
+              "version": "1.4.0"
+            }
+          ]
+        }
+        
       ],
       "tools": [
       {

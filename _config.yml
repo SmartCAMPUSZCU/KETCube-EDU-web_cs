@@ -18,8 +18,8 @@ github:
   arduino_json_url: https://edu.ketcube.cz/files/package_ketcube_index.json
 #  arduino_ar_url: https://github.com/SmartCAMPUSZCU/KETCube-arduino/releases/latest/download/KETCube-Arduino-board.tar.gz
 #  arduino_lib_url: https://github.com/SmartCAMPUSZCU/KETCube-arduino/releases/latest/download/KETCube-Arduino-lib.zip
-  arduino_ar_url: https://edu.ketcube.cz/files/releases/v0.2.1/KETCube-Arduino-board.tar.gz
-  arduino_lib_url: https://edu.ketcube.cz/files/releases/v0.2.1/KETCube-Arduino-lib.zip
+  arduino_ar_url: https://edu.ketcube.cz/files/releases/v0.2.2/KETCube-Arduino-board.tar.gz
+  arduino_lib_url: https://edu.ketcube.cz/files/releases/v0.2.2/KETCube-Arduino-lib.zip
   arduino_apidoc_url: https://edu.ketcube.cz/files/apidoc/
   arduino_repository_url: https://github.com/SmartCAMPUSZCU/KETCube-arduino
   docs_name: Dokumentace
