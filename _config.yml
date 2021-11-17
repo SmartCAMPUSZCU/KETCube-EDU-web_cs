@@ -23,8 +23,8 @@ github:
   arduino_apidoc_url: https://edu.ketcube.cz/files/apidoc/
   arduino_repository_url: https://github.com/SmartCAMPUSZCU/KETCube-arduino
   docs_name: Dokumentace
-  docs_datasheet: https://github.com/SmartCAMPUSZCU/KETCube-docs/blob/refactoring_0.2/KETCubeDatasheet.pdf
-  docs_appnotes: https://github.com/SmartCAMPUSZCU/KETCube-docs/tree/refactoring_0.2/appNotes
-  docs_repository_url: https://github.com/SmartCAMPUSZCU/KETCube-docs/tree/refactoring_0.2
+  docs_datasheet: https://github.com/SmartCAMPUSZCU/KETCube-docs/blob/master/KETCubeDatasheet.pdf
+  docs_appnotes: https://github.com/SmartCAMPUSZCU/KETCube-docs/tree/master/appNotes
+  docs_repository_url: https://github.com/SmartCAMPUSZCU/KETCube-docs/tree/master
   
   
