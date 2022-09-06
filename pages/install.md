@@ -29,6 +29,22 @@ Balíček příkladů lze vložit v menu **Projekt / Přidat knihovnu / Přidat 
 Příklady pak najdete v menu **Soubor / Příklady**
 
 ---
+**Poznámka**
+
+Provádíte-li aktualizaci nebo chcete-li přeinstalovat balíček s příklady pro KETCube EDU, Arduino IDE Vám při pokusu o instalaci oznámí: *Knihovna s názvem KETCube-Arduino-lib již existuje*
+Soubory knihovny je bohužel nutné nejprve manuaĺně odstranit, aktualizace z Arduino IDE není bohužel možná. 
+Umístění souborů knihovny se může lišit v závislosti na Vašem nastavení a verzi Arduino IDE. Pro odstranění starší verze knihovny smažte celý adresář **KETCube-Arduino-lib** z knihoven Arduino IDE.
+
+Typické umístění knihoven v operačním systému Windows:
+  * c:\Users\USERNAME\Dokumenty\Arduino\libraries
+
+Typické umístění knihoven v Unixových operačních systémech:
+  * ~/Arduino/libraries
+
+---
+
+
+---
 **Instalace v GNU/Linuxu**
 
 Většina distribucí GNU Linuxu zahrnuje balíček Arduino IDE v repozitářích. Pro práci s KETCube terminálem nainstalujte také program PuTTY.
